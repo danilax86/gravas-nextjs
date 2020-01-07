@@ -1,10 +1,10 @@
-import RitualHighLightCard from '../highlight-card/RitualHighLightCard';
-import HighlightCardItems from './style';
+import RitualHighlightCard from "../highlight-card/RitualHighlightCard";
+import HighlightCardItems from "./style";
 
-export default({highlights}) => (
-   <HighlightCardItems>
+export default ({ highlights }) => (
+  <HighlightCardItems>
     {highlights.map(highlight => (
-        <RitualHighLightCard key={highlight.label} {...highlight}/>
+      <RitualHighlightCard key={highlight.label} {...highlight} />
     ))}
-   </HighlightCardItems> 
-)
+  </HighlightCardItems>
+);
