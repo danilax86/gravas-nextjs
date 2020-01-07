@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "icon": "phone",
+    "href": "tel:",
+    "contact": "+37126647133",
+    "buttonText": "call_number"
+  },
+  {
+    "id": "2",
+    "icon": "mail",
+    "href": "mailto:",
+    "contact": "info@gravas.lv",
+    "buttonText": "send_email"
+  },
+  {
+    "id": "3",
+    "icon": "pin",
+    "contact": "Likverteni, Bauskas novads",
+    "buttonText": "find_on_map"
+  },
+  {
+    "id": "4",
+    "icon": "facebook",
+    "href": "https://www.facebook.com/",
+    "contact": "gravasatputa",
+    "buttonText": "follow_on_social_media"
+  }
+]

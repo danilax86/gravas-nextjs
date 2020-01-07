@@ -1,0 +1,836 @@
+[
+  {
+    "id": "1",
+    "title": "zalu_pirts_rituals",
+    "priceTitle": "herbal_sauna_num_of_persons",
+    "priceFrom": "herbal_sauna_price_from",
+    "img": "/static/sauna-rituals/zalu-pirts.jpg",
+    "alt": "herbal_sauna_alt",
+    "metaTitle": "herbal_sauna_metaTitle",
+    "metaDescription": "herbal_sauna_metaDescription",
+    "considerTitle": "consider_title",
+    "allPriceTitle": "price_title",
+    "whatIsIncludedTitle": "what_is_included",
+
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "herbal_sauna_highlights_duration_label",
+        "caption": "highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "herbal_sauna_highlights_maks_persons_label",
+        "caption": "highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "herbal_sauna_description_title",
+        "text": "herbal_sauna_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "sauna",
+        "label": "amenity_sauna_label",
+        "caption": "amenity_sauna_caption"
+      },
+      {
+        "icon": "scrub",
+        "label": "amenity_scrub_label",
+        "caption": "amenity_scrub_caption"
+      },
+      {
+        "icon": "bamboo-massage",
+        "label": "amenity_massage_label",
+        "caption": "amenity_massage_caption"
+      },
+      {
+        "icon": "steaming-whisk",
+        "label": "amenity_whisks_label",
+        "caption": "amenity_whisks_caption"
+      },
+      {
+        "icon": "feet-bath",
+        "label": "amenity_feet_bath_label",
+        "caption": "amenity_feet_bath_caption"
+      },
+      {
+        "icon": "pool",
+        "label": "amenity_pool_label",
+        "caption": "amenity_pool_caption"
+      },
+      {
+        "icon": "mask",
+        "label": "amenity_honey_label",
+        "caption": "amenity_honey_caption"
+      },
+      {
+        "icon": "bathrobe",
+        "label": "amenity_accessories_label",
+        "caption": "amenity_accessories_caption"
+      },
+      {
+        "icon": "tea",
+        "label": "amenity_snacks_label",
+        "caption": "amenity_snacks_caption"
+      }
+    ],
+    "extraDetails": [
+      {
+        "title": "take_with_you",
+        "details": "take_with_you_description"
+      },
+      {
+        "title": "cancelation",
+        "details": "cancelation_description"
+      },
+      {
+        "title": "customer_requirement",
+        "details": "customer_requirement_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "herbs",
+        "title": "zalu_pirts_rituals",
+        "forPerson": "herbal_sauna_per_person",
+        "additionalPerson": "herbal_sauna_additional_person",
+        "totalPrice": "63 €"
+      },
+      {
+        "icon": "spa",
+        "title": "individual_herbal_sauna_ritual",
+        "forPerson": "individual_herbal_sauna_per_person",
+        "totalPrice": "70 €"
+      },
+      {
+        "icon": "bed",
+        "title": "accommodation",
+        "forPerson": "accommodation_per_person",
+        "additionalPerson": "accommodation_additional_person",
+        "totalPrice": "36 €"
+      },
+      {
+        "icon": "massage",
+        "title": "body_massage",
+        "forPerson": "body_massage_per_person",
+        "additionalPerson": "body_massage_back_massage",
+        "totalPrice": "20 €"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "milestibas_pirts_rituals",
+    "priceTitle": "couple_sauna_num_of_persons",
+    "priceFrom": "couple_sauna_price_from",
+    "img": "/static/sauna-rituals/milestibas-pirts-rituals.jpg",
+    "alt": "couple_sauna_alt",
+    "metaTitle": "couple_sauna_metaTitle",
+    "metaDescription": "couple_sauna_metaDescription",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "couple_sauna_highlights_duration_label",
+        "caption": "highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "couple_sauna_highlights_maks_persons_label",
+        "caption": "highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "couple_sauna_description_title",
+        "text": "couple_sauna_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "sauna",
+        "label": "amenity_sauna_label",
+        "caption": "amenity_sauna_caption"
+      },
+      {
+        "icon": "scrub",
+        "label": "amenity_scrub_label",
+        "caption": "amenity_scrub_caption"
+      },
+      {
+        "icon": "bamboo-massage",
+        "label": "amenity_massage_label",
+        "caption": "amenity_massage_caption"
+      },
+      {
+        "icon": "steaming-whisk",
+        "label": "amenity_whisks_label",
+        "caption": "amenity_whisks_caption"
+      },
+      {
+        "icon": "couple-ritual",
+        "label": "couple_sauna_amenity_love_whisks_label",
+        "caption": "couple_sauna_amenity_love_whisks_caption"
+      },
+      {
+        "icon": "feet-bath",
+        "label": "amenity_feet_bath_label",
+        "caption": "amenity_feet_bath_caption"
+      },
+      {
+        "icon": "pool",
+        "label": "amenity_pool_label",
+        "caption": "amenity_pool_caption"
+      },
+      {
+        "icon": "mask",
+        "label": "amenity_honey_label",
+        "caption": "amenity_honey_caption"
+      },
+      {
+        "icon": "bathrobe",
+        "label": "amenity_accessories_label",
+        "caption": "amenity_accessories_caption"
+      },
+      {
+        "icon": "tea",
+        "label": "amenity_snacks_label",
+        "caption": "amenity_snacks_caption"
+      }
+    ],
+    "extraDetails": [
+      {
+        "title": "take_with_you",
+        "details": "take_with_you_description"
+      },
+      {
+        "title": "cancelation",
+        "details": "cancelation_description"
+      },
+      {
+        "title": "customer_requirement",
+        "details": "customer_requirement_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "couple-ritual",
+        "title": "milestibas_pirts_rituals",
+        "forPerson": "couple_sauna_per_person",
+        "totalPrice": "66 €"
+      },
+      {
+        "icon": "bed",
+        "title": "accommodation",
+        "forPerson": "accommodation_per_person",
+        "additionalPerson": "accommodation_additional_person",
+        "totalPrice": "36 €"
+      },
+      {
+        "icon": "massage",
+        "title": "body_massage",
+        "forPerson": "body_massage_per_person",
+        "additionalPerson": "body_massage_back_massage",
+        "totalPrice": "20 €"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "dzimsanas_dienas_pirts_rituals",
+    "priceTitle": "birthday_sauna_num_of_persons",
+    "priceFrom": "birthday_sauna_price_from",
+    "img": "/static/sauna-rituals/dzimsanas-dienas-pirts-rituals.jpg",
+    "alt": "birthday_sauna_alt",
+    "metaTitle": "birthday_sauna_metaTitle",
+    "metaDescription": "birthday_sauna_metaDescription",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "birthday_sauna_highlights_duration_label",
+        "caption": "highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "birthday_sauna_highlights_maks_persons_label",
+        "caption": "highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "birthday_sauna_description_title",
+        "text": "birthday_sauna_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "sauna",
+        "label": "amenity_sauna_label",
+        "caption": "amenity_sauna_caption"
+      },
+      {
+        "icon": "scrub",
+        "label": "amenity_scrub_label",
+        "caption": "amenity_scrub_caption"
+      },
+      {
+        "icon": "bamboo-massage",
+        "label": "amenity_massage_label",
+        "caption": "amenity_massage_caption"
+      },
+      {
+        "icon": "steaming-whisk",
+        "label": "amenity_whisks_label",
+        "caption": "amenity_whisks_caption"
+      },
+      {
+        "icon": "feet-bath",
+        "label": "amenity_feet_bath_label",
+        "caption": "amenity_feet_bath_caption"
+      },
+      {
+        "icon": "pool",
+        "label": "amenity_pool_label",
+        "caption": "amenity_pool_caption"
+      },
+      {
+        "icon": "mask",
+        "label": "amenity_honey_label",
+        "caption": "amenity_honey_caption"
+      },
+      {
+        "icon": "bathrobe",
+        "label": "amenity_accessories_label",
+        "caption": "amenity_accessories_caption"
+      },
+      {
+        "icon": "tea",
+        "label": "amenity_snacks_label",
+        "caption": "amenity_snacks_caption"
+      },
+      {
+        "icon": "cakra",
+        "label": "birthday_sauna_amenity_chakra_label",
+        "caption": "birthday_sauna_amenity_chakra_caption"
+      }
+    ],
+    "extraDetails": [
+      {
+        "title": "take_with_you",
+        "details": "take_with_you_description"
+      },
+      {
+        "title": "cancelation",
+        "details": "cancelation_description"
+      },
+      {
+        "title": "customer_requirement",
+        "details": "customer_requirement_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "birthday-ritual",
+        "title": "dzimsanas_dienas_pirts_rituals",
+        "forPerson": "birthday_sauna_per_person",
+        "totalPrice": "75 €"
+      },
+      {
+        "icon": "bed",
+        "title": "accommodation",
+        "forPerson": "accommodation_per_person",
+        "additionalPerson": "accommodation_additional_person",
+        "totalPrice": "36 €"
+      },
+      {
+        "icon": "massage",
+        "title": "body_massage",
+        "forPerson": "body_massage_per_person",
+        "additionalPerson": "body_massage_back_massage",
+        "totalPrice": "20 €"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "ligavas_pirts_rituals",
+    "priceTitle": "bride_sauna_num_of_persons",
+    "priceFrom": "bride_sauna_price_from",
+    "img": "/static/sauna-rituals/ligavas-pirts-rituals-1.jpg",
+    "alt": "bride_sauna_alt",
+    "metaTitle": "bride_sauna_metaTitle",
+    "metaDescription": "bride_sauna_metaDescription",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "bride_sauna_highlights_duration_label",
+        "caption": "highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "bride_sauna_highlights_maks_persons_label",
+        "caption": "highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "bride_sauna_description_title",
+        "text": "bride_sauna_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "sauna",
+        "label": "amenity_sauna_label",
+        "caption": "amenity_sauna_caption"
+      },
+      {
+        "icon": "scrub",
+        "label": "amenity_scrub_label",
+        "caption": "amenity_scrub_caption"
+      },
+      {
+        "icon": "steaming-whisk",
+        "label": "amenity_whisks_label",
+        "caption": "amenity_whisks_caption"
+      },
+      {
+        "icon": "traditions",
+        "label": "amenity_traditions_label",
+        "caption": "amenity_traditions_caption"
+      },
+      {
+        "icon": "feet-bath",
+        "label": "amenity_feet_bath_label",
+        "caption": "amenity_feet_bath_caption"
+      },
+      {
+        "icon": "pool",
+        "label": "amenity_pool_label",
+        "caption": "amenity_pool_caption"
+      },
+      {
+        "icon": "mask",
+        "label": "amenity_honey_label",
+        "caption": "amenity_honey_caption"
+      },
+      {
+        "icon": "bathrobe",
+        "label": "amenity_accessories_label",
+        "caption": "amenity_accessories_caption"
+      },
+      {
+        "icon": "tea",
+        "label": "amenity_snacks_label",
+        "caption": "amenity_snacks_caption"
+      },
+      {
+        "icon": "bride",
+        "label": "amenity_bride_sisters_label",
+        "caption": "amenity_bride_sisters_caption"
+      }
+    ],
+    "extraDetails": [
+      {
+        "title": "take_with_you",
+        "details": "take_with_you_description"
+      },
+      {
+        "title": "cancelation",
+        "details": "cancelation_description"
+      },
+      {
+        "title": "customer_requirement",
+        "details": "customer_requirement_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "couple-ritual",
+        "title": "milestibas_pirts_rituals",
+        "forPerson": "bride_sauna_per_person",
+        "additionalPerson": "bride_sauna_additional_person",
+        "totalPrice": "70 €"
+      },
+      {
+        "icon": "bed",
+        "title": "accommodation",
+        "forPerson": "accommodation_per_person",
+        "additionalPerson": "accommodation_additional_person",
+        "totalPrice": "36 €"
+      },
+      {
+        "icon": "massage",
+        "title": "body_massage",
+        "forPerson": "body_massage_per_person",
+        "additionalPerson": "body_massage_back_massage",
+        "totalPrice": "20 €"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "rozu_pirts_rituals",
+    "priceTitle": "rose_sauna_num_of_persons",
+    "priceFrom": "rose_sauna_price_from",
+    "img": "/static/sauna-rituals/rozu-pirts-rituals.jpg",
+    "alt": "rose_sauna_alt",
+    "metaTitle": "rose_sauna_metaTitle",
+    "metaDescription": "rose_sauna_metaDescription",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "rose_sauna_highlights_duration_label",
+        "caption": "highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "rose_sauna_highlights_maks_persons_label",
+        "caption": "highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "rose_sauna_description_title",
+        "text": "rose_sauna_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "sauna",
+        "label": "amenity_sauna_label",
+        "caption": "amenity_sauna_caption"
+      },
+      {
+        "icon": "scrub",
+        "label": "amenity_scrub_label",
+        "caption": "amenity_scrub_caption"
+      },
+      {
+        "icon": "steaming-whisk",
+        "label": "amenity_whisks_label",
+        "caption": "amenity_whisks_caption"
+      },
+      {
+        "icon": "bamboo-massage",
+        "label": "amenity_massage_label",
+        "caption": "amenity_massage_caption"
+      },
+      {
+        "icon": "feet-bath",
+        "label": "amenity_feet_bath_label",
+        "caption": "amenity_feet_bath_caption"
+      },
+      {
+        "icon": "pool",
+        "label": "amenity_pool_label",
+        "caption": "amenity_pool_caption"
+      },
+      {
+        "icon": "rose-ritual",
+        "label": "rose_sauna_amenity_petals_label",
+        "caption": "rose_sauna_amenity_petals_caption"
+      },
+      {
+        "icon": "mask",
+        "label": "amenity_honey_label",
+        "caption": "amenity_honey_caption"
+      },
+      {
+        "icon": "bathrobe",
+        "label": "amenity_accessories_label",
+        "caption": "amenity_accessories_caption"
+      },
+      {
+        "icon": "tea",
+        "label": "amenity_snacks_label",
+        "caption": "amenity_snacks_caption"
+      }
+    ],
+    "extraDetails": [
+      {
+        "title": "take_with_you",
+        "details": "take_with_you_description"
+      },
+      {
+        "title": "cancelation",
+        "details": "cancelation_description"
+      },
+      {
+        "title": "customer_requirement",
+        "details": "customer_requirement_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "rose-ritual",
+        "title": "rozu_pirts_rituals",
+        "forPerson": "rose_sauna_per_person",
+        "additionalPerson": "rose_sauna_additional_person",
+        "totalPrice": "66 €"
+      },
+      {
+        "icon": "bed",
+        "title": "accommodation",
+        "forPerson": "accommodation_per_person",
+        "additionalPerson": "accommodation_additional_person",
+        "totalPrice": "36 €"
+      },
+      {
+        "icon": "massage",
+        "title": "body_massage",
+        "forPerson": "body_massage_per_person",
+        "additionalPerson": "body_massage_back_massage",
+        "totalPrice": "20 €"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "dzintara_pirts_rituals",
+    "priceTitle": "amber_sauna_num_of_persons",
+    "priceFrom": "amber_sauna_price_from",
+    "img": "/static/sauna-rituals/dzintara-rituals.jpg",
+    "alt": "amber_sauna_alt",
+    "metaTitle": "amber_sauna_metaTitle",
+    "metaDescription": "amber_sauna_metaDescription",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "amber_sauna_highlights_duration_label",
+        "caption": "highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "amber_sauna_highlights_maks_persons_label",
+        "caption": "highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "amber_sauna_description_title",
+        "text": "amber_sauna_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "sauna",
+        "label": "amenity_sauna_label",
+        "caption": "amenity_sauna_caption"
+      },
+      {
+        "icon": "scrub",
+        "label": "amenity_scrub_label",
+        "caption": "amenity_scrub_caption"
+      },
+      {
+        "icon": "steaming-whisk",
+        "label": "amenity_whisks_label",
+        "caption": "amenity_whisks_caption"
+      },
+      {
+        "icon": "bamboo-massage",
+        "label": "amenity_massage_label",
+        "caption": "amenity_massage_caption"
+      },
+      {
+        "icon": "feet-bath",
+        "label": "amenity_feet_bath_label",
+        "caption": "amenity_feet_bath_caption"
+      },
+      {
+        "icon": "pool",
+        "label": "amenity_pool_label",
+        "caption": "amenity_pool_caption"
+      },
+      {
+        "icon": "mask",
+        "label": "amenity_honey_label",
+        "caption": "amenity_honey_caption"
+      },
+      {
+        "icon": "bathrobe",
+        "label": "amenity_accessories_label",
+        "caption": "amenity_accessories_caption"
+      },
+      {
+        "icon": "tea",
+        "label": "amenity_snacks_label",
+        "caption": "amenity_snacks_caption"
+      }
+    ],
+    "extraDetails": [
+      {
+        "title": "take_with_you",
+        "details": "take_with_you_description"
+      },
+      {
+        "title": "cancelation",
+        "details": "cancelation_description"
+      },
+      {
+        "title": "customer_requirement",
+        "details": "customer_requirement_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "amber",
+        "title": "dzintara_pirts_rituals",
+        "forPerson": "amber_sauna_per_person",
+        "additionalPerson": "amber_sauna_additional_person",
+        "totalPrice": "66 €"
+      },
+      {
+        "icon": "bed",
+        "title": "accommodation",
+        "forPerson": "accommodation_per_person",
+        "additionalPerson": "accommodation_additional_person",
+        "totalPrice": "36 €"
+      },
+      {
+        "icon": "massage",
+        "title": "body_massage",
+        "forPerson": "body_massage_per_person",
+        "additionalPerson": "body_massage_back_massage",
+        "totalPrice": "20 €"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "meitenu_spa_vakars",
+    "priceTitle": "girls_spa_num_of_persons",
+    "priceFrom": "girls_spa_price_from",
+    "img": "/static/sauna-rituals/meitenu-spa-vakars.jpg",
+    "alt": "girls_spa_alt",
+    "metaTitle": "girls_spa_metaTitle",
+    "metaDescription": "girls_spa_metaDescription",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "girls_spa_highlights_duration_label",
+        "caption": "highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "girls_spa_highlights_maks_persons_label",
+        "caption": "highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "girls_spa_description_title",
+        "text": "girls_spa_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "sauna",
+        "label": "amenity_sauna_label",
+        "caption": "amenity_sauna_caption"
+      },
+      {
+        "icon": "scrub",
+        "label": "amenity_scrub_label",
+        "caption": "amenity_scrub_caption"
+      },
+      {
+        "icon": "pool",
+        "label": "amenity_pool_label",
+        "caption": "amenity_pool_caption"
+      },
+      {
+        "icon": "hat",
+        "label": "amenity_accessories_label",
+        "caption": "girl_spa_amenity_accessories_caption"
+      },
+      {
+        "icon": "tea",
+        "label": "girl_spa_amenity_snacks_label",
+        "caption": "girl_spa_amenity_snacks_caption"
+      }
+    ],
+    "extraDetails": [
+      {
+        "title": "take_with_you",
+        "details": "take_with_you_description"
+      },
+      {
+        "title": "cancelation",
+        "details": "cancelation_description"
+      },
+      {
+        "title": "customer_requirement",
+        "details": "customer_requirement_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "facial-treatment",
+        "title": "meitenu_spa_vakars",
+        "forPerson": "girls_spa_per_person",
+        "additionalPerson": "girls_spa_additional_person",
+        "totalPrice": "45 €"
+      },
+      {
+        "icon": "bed",
+        "title": "accommodation",
+        "forPerson": "accommodation_per_person",
+        "additionalPerson": "accommodation_additional_person",
+        "totalPrice": "36 €"
+      },
+      {
+        "icon": "massage",
+        "title": "body_massage",
+        "forPerson": "body_massage_per_person",
+        "additionalPerson": "body_massage_back_massage",
+        "totalPrice": "20 €"
+      }
+    ]
+  }
+]

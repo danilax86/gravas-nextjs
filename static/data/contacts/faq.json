@@ -1,0 +1,107 @@
+[
+  {
+    "title": "location_title",
+    "questions": [
+      {
+        "label": "location_public_transport_question",
+        "answer": "location_public_transport_answer"
+      },
+      {
+        "label": "location_way_from_riga_question",
+        "answer": "location_way_from_riga_answer"
+      },
+      {
+        "label": "location_way_from_bauska_question",
+        "answer": "location_way_from_bauska_answer"
+      },
+      {
+        "label": "location_duration_question",
+        "answer": "location_duration_answer"
+      },
+      {
+        "label": "location_visit_places_question",
+        "answer": "location_visit_places_answer"
+      },
+      {
+        "label": "location_dinning_places_question",
+        "answer": "location_dinning_places_answer"
+      }
+    ]
+  },
+  {
+    "title": "sauna_ritual_title",
+    "questions": [
+      {
+        "label": "sauna_ritual_take_with_you_question",
+        "answer": "sauna_ritual_take_with_you_answer"
+      },
+      {
+        "label": "sauna_ritual_duration_question",
+        "answer": "sauna_ritual_duration_answer"
+      },
+      {
+        "label": "sauna_ritual_arrival_question",
+        "answer": "sauna_ritual_arrival_answer"
+      },
+      {
+        "label": "sauna_ritual_delay_question",
+        "answer": "sauna_ritual_delay_answer"
+      },
+      {
+        "label": "sauna_ritual_other_guests_question",
+        "answer": "sauna_ritual_other_guests_answer"
+      }
+    ]
+  },
+  {
+    "title": "guesthouse_title",
+    "questions": [
+      {
+        "label": "guesthouse_included_sauna_question",
+        "answer": "guesthouse_included_sauna_answer"
+      },
+      {
+        "label": "guesthouse_heated_question",
+        "answer": "guesthouse_heated_answer"
+      },
+      {
+        "label": "guesthouse_security_deposit_question",
+        "answer": "guesthouse_security_deposit_answer"
+      },
+      {
+        "label": "guesthouse_security_duration_question",
+        "answer": "guesthouse_security_duration_answer"
+      }
+    ]
+  },
+  {
+    "title": "activities_title",
+    "questions": [
+      {
+        "label": "activities_duration_question",
+        "answer": "activities_duration_answer"
+      },
+      {
+        "label": "activities_take_with_you_question",
+        "answer": "activities_take_with_you_answer"
+      },
+      {
+        "label": "activities_archery_away_question",
+        "answer": "activities_archery_away_answer"
+      }
+    ]
+  },
+  {
+    "title": "gift_card_title",
+    "questions": [
+      {
+        "label": "gift_card_expiry_date_question",
+        "answer": "gift_card_expiry_date_answer"
+      },
+      {
+        "label": "gift_card_extra_services_question",
+        "answer": "gift_card_extra_services_answer"
+      }
+    ]
+  }
+]

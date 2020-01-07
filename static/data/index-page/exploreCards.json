@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "label": "zalu_pirts_rituals",
+    "img": "/static/sauna-rituals/klugu-masaza.jpg",
+    "href": "/pirts-rituali/zalu-pirts-rituals"
+  },
+  {
+    "id": "2",
+    "label": "viesu_majas_ire",
+    "img": "/static/guesthouse/viesu-maja-jumis.jpg",
+    "href": "/viesu-maja/viesu-majas-ire"
+  },
+  {
+    "id": "3",
+    "label": "kazu_svinibas",
+    "img": "/static/guesthouse/kazu-svinibu-vieta.jpg",
+    "href": "/viesu-maja/kazu-svinibu-vieta"
+  },
+  {
+    "id": "4",
+    "label": "naktsmitnes",
+    "img": "/static/guesthouse/gultasvietas.jpg",
+    "href": "/viesu-maja/naktsmitnes"
+  }
+]

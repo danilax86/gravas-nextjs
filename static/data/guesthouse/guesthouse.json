@@ -1,0 +1,584 @@
+[
+  {
+    "id": "1",
+    "title": "viesu_majas_ire",
+    "priceTitle": "guesthouse_rental_num_of_persons",
+    "priceFrom": "guesthouse_rental_price_from",
+    "img": "/static/guesthouse/viesu-maja-jumis.jpg",
+    "alt": "guesthouse_rental_alt",
+    "metaTitle": "guesthouse_rental_meta_title",
+    "metaDescription": "guesthouse_rental_meta_description",
+    "considerTitle": "consider_title",
+    "allPriceTitle": "price_title",
+    "whatIsIncludedTitle": "what_is_included",
+    "highlights": [
+      {
+        "icon": "people",
+        "label": "guesthouse_highlights_maks_persons_label",
+        "caption": "guesthouse_highlights_maks_persons_caption"
+      },
+      {
+        "icon": "time",
+        "label": "guesthouse_highlights_duration_label",
+        "caption": "guesthouse_highlights_duration_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "guesthouse_description_title",
+        "text": "guesthouse_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "key",
+        "label": "amenity_space_label",
+        "caption": "amenity_space_caption"
+      },
+      {
+        "icon": "bed",
+        "label": "amenity_bed_label",
+        "caption": "amenity_bed_caption"
+      },
+      {
+        "icon": "kitchen",
+        "label": "amenity_kitchen_label",
+        "caption": "amenity_kitchen_caption"
+      },
+      {
+        "icon": "shower",
+        "label": "amenity_shower_label",
+        "caption": "amenity_shower_caption"
+      },
+      {
+        "icon": "cutlery",
+        "label": "amenity_cutlery_label",
+        "caption": "amenity_cutlery_caption"
+      },
+      {
+        "icon": "chairs",
+        "label": "amenity_dinning_facilities_label",
+        "caption": "amenity_dinning_facilities_caption"
+      },
+      {
+        "icon": "volleyball",
+        "label": "amenity_volleyball_label",
+        "caption": "amenity_volleyball_caption"
+      },
+      {
+        "icon": "basketball",
+        "label": "amenity_basketball_label",
+        "caption": "amenity_basketball_caption"
+      },
+      {
+        "icon": "parking",
+        "label": "amenity_parking_label",
+        "caption": "amenity_sparking_caption"
+      }
+    ],
+
+    "extraDetails": [
+      {
+        "title": "arrival_departue_title",
+        "details": "arrival_departue_description"
+      },
+      {
+        "title": "reservation_extras_title",
+        "details": "reservation_extras_description"
+      },
+      {
+        "title": "reservation_public_holidays_title",
+        "details": "reservation_public_holidays_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "key",
+        "title": "viesu_majas_ire",
+        "forPerson": "guesthouse_max_number_of_persons",
+        "totalPrice": "220 €"
+      },
+      {
+        "icon": "sauna",
+        "title": "sauna_rental",
+        "forPerson": "sauna_rental_max_number_of_persons",
+        "totalPrice": "45 €"
+      },
+      {
+        "icon": "bed",
+        "title": "accommodation",
+        "forPerson": "accommodation_per_person",
+        "totalPrice": "15 €"
+      },
+      {
+        "icon": "bonfire",
+        "title": "grill_place",
+        "forPerson": "grill_place_accessories",
+        "totalPrice": "10 €"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "naktsmitnes",
+    "priceTitle": "accommodation_num_of_persons",
+    "priceFrom": "accommodation_price_from",
+    "img": "/static/guesthouse/gultasvietas.jpg",
+    "alt": "accommodation_alt",
+    "metaTitle": "accommodation_meta_title",
+    "metaDescription": "accommodation_meta_description",
+    "considerTitle": "consider_title",
+    "allPriceTitle": "price_title",
+    "whatIsIncludedTitle": "what_is_included",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "accommodation_highlights_duration_label",
+        "caption": "accommodation_highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "accommodation_highlights_maks_persons_label",
+        "caption": "accommodation_highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "accommodation_description_title",
+        "text": "accommodation_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "bed",
+        "label": "amenity_bed_label",
+        "caption": "amenity_bed_caption"
+      },
+      {
+        "icon": "kitchen",
+        "label": "amenity_kitchen_label",
+        "caption": "amenity_kitchen_caption"
+      },
+      {
+        "icon": "shower",
+        "label": "amenity_shower_label",
+        "caption": "amenity_shower_caption"
+      },
+      {
+        "icon": "cutlery",
+        "label": "amenity_cutlery_label",
+        "caption": "amenity_cutlery_caption"
+      },
+      {
+        "icon": "volleyball",
+        "label": "amenity_volleyball_label",
+        "caption": "amenity_volleyball_caption"
+      },
+      {
+        "icon": "basketball",
+        "label": "amenity_basketball_label",
+        "caption": "amenity_basketball_caption"
+      },
+      {
+        "icon": "parking",
+        "label": "amenity_parking_label",
+        "caption": "amenity_sparking_caption"
+      }
+    ],
+
+    "extraDetails": [
+      {
+        "id": "1",
+        "title": "arrival_departue_title",
+        "details": "arrival_departue_description"
+      },
+      {
+        "id": "1",
+        "title": "reservation_extras_title",
+        "details": "reservation_extras_description"
+      },
+      {
+        "id": "1",
+        "title": "accommodation_not_allowed_title",
+        "details": "accommodation_not_allowed_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "bed",
+        "title": "accommodation",
+        "forPerson": "accommodation_per_person",
+        "totalPrice": "15 €"
+      },
+      {
+        "icon": "key",
+        "title": "viesu_majas_ire",
+        "forPerson": "guesthouse_max_number_of_persons",
+        "totalPrice": "220 €"
+      },
+      {
+        "icon": "sauna",
+        "title": "sauna_rental",
+        "forPerson": "sauna_rental_max_number_of_persons",
+        "totalPrice": "45 €"
+      },
+
+      {
+        "icon": "bonfire",
+        "title": "grill_place",
+        "forPerson": "grill_place_accessories",
+        "totalPrice": "10 €"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "iekurinata_pirts",
+    "priceTitle": "sauna_num_of_persons",
+    "priceFrom": "sauna_price_from",
+    "img": "/static/guesthouse/iekurinata-pirts.jpg",
+    "alt": "sauna_alt",
+    "metaTitle": "sauna_meta_title",
+    "metaDescription": "sauna_meta_description",
+    "considerTitle": "consider_title",
+    "allPriceTitle": "price_title",
+    "whatIsIncludedTitle": "what_is_included",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "sauna_highlights_duration_label",
+        "caption": "sauna_highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "sauna_highlights_maks_persons_label",
+        "caption": "sauna_highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "sauna_description_title",
+        "text": "sauna_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "sauna",
+        "label": "amenity_sauna_label",
+        "caption": "amenity_sauna_caption"
+      },
+      {
+        "icon": "chairs",
+        "label": "amenity_dinning_facilities_label",
+        "caption": "amenity_dinning_facilities_caption"
+      },
+      {
+        "icon": "shower",
+        "label": "amenity_shower_label",
+        "caption": "amenity_shower_caption"
+      },
+      {
+        "icon": "volleyball",
+        "label": "amenity_volleyball_label",
+        "caption": "amenity_volleyball_caption"
+      },
+      {
+        "icon": "basketball",
+        "label": "amenity_basketball_label",
+        "caption": "amenity_basketball_caption"
+      },
+      {
+        "icon": "parking",
+        "label": "amenity_parking_label",
+        "caption": "amenity_sparking_caption"
+      }
+    ],
+
+    "extraDetails": [
+      {
+        "id": "2",
+        "title": "sauna_additional_time_title",
+        "details": "sauna_additional_time_description"
+      },
+      {
+        "id": "3",
+        "title": "sauna_holiday_price_title",
+        "details": "sauna_holiday_price_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "sauna",
+        "title": "sauna_rental",
+        "forPerson": "sauna_rental_max_number_of_persons",
+        "totalPrice": "45 €"
+      },
+      {
+        "icon": "bed",
+        "title": "accommodation",
+        "forPerson": "accommodation_per_person",
+        "totalPrice": "15 €"
+      },
+      {
+        "icon": "bonfire",
+        "title": "grill_place",
+        "forPerson": "grill_place_accessories",
+        "totalPrice": "10 €"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "svinibu_vieta",
+    "priceTitle": "celebration_place_num_of_persons",
+    "priceFrom": "celebration_place_price_from",
+    "img": "/static/guesthouse/svinibu-vieta.jpg",
+    "alt": "celebration_place_alt",
+    "metaTitle": "celebration_place_meta_title",
+    "metaDescription": "celebration_place_meta_description",
+    "considerTitle": "consider_title",
+    "allPriceTitle": "price_title",
+    "whatIsIncludedTitle": "what_is_included",
+    "highlights": [
+      {
+        "icon": "people",
+        "label": "celebration_place_highlights_maks_persons_label",
+        "caption": "celebration_place_highlights_maks_persons_caption"
+      },
+      {
+        "icon": "time",
+        "label": "celebration_place_highlights_duration_label",
+        "caption": "celebration_place_highlights_duration_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "celebration_place_description_title",
+        "text": "celebration_place_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "canopy",
+        "label": "amenity_canopy_label",
+        "caption": "amenity_canopy_caption"
+      },
+      {
+        "icon": "chairs",
+        "label": "amenity_dinning_facilities_label",
+        "caption": "amenity_dinning_facilities_caption"
+      },
+      {
+        "icon": "kitchen",
+        "label": "amenity_kitchen_label",
+        "caption": "amenity_kitchen_caption"
+      },
+      {
+        "icon": "volleyball",
+        "label": "amenity_volleyball_label",
+        "caption": "amenity_volleyball_caption"
+      },
+      {
+        "icon": "basketball",
+        "label": "amenity_basketball_label",
+        "caption": "amenity_basketball_caption"
+      },
+      {
+        "icon": "parking",
+        "label": "amenity_parking_label",
+        "caption": "amenity_sparking_caption"
+      }
+    ],
+
+    "extraDetails": [
+      {
+        "title": "celebration_place_additional_hours_title",
+        "details": "celebration_place_additional_hours_description"
+      },
+      {
+        "title": "celebration_place_additional_guests_title",
+        "details": "celebration_place_additional_guests_description"
+      },
+      {
+        "title": "reservation_extras_title",
+        "details": "reservation_extras_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "canopy",
+        "title": "svinibu_vieta",
+        "forPerson": "celebration_place_max_number_of_persons",
+        "totalPrice": "50 €"
+      },
+      {
+        "icon": "time",
+        "title": "celebration_place_extra_hour",
+        "forPerson": "celebration_place_extra_details",
+        "totalPrice": "15 €"
+      },
+      {
+        "icon": "bonfire",
+        "title": "grill_place",
+        "forPerson": "grill_place_accessories",
+        "totalPrice": "10 €"
+      },
+      {
+        "icon": "sauna",
+        "title": "sauna_rental",
+        "forPerson": "sauna_rental_max_number_of_persons",
+        "totalPrice": "45 €"
+      }
+    ]
+  },
+
+  {
+    "id": "5",
+    "title": "kazu_svinibu_vieta",
+    "priceTitle": "wedding_num_of_persons",
+    "priceFrom": "wedding_price_from",
+    "img": "/static/guesthouse/kazu-svinibu-vieta.jpg",
+    "alt": "wedding_alt",
+    "metaTitle": "wedding_meta_title",
+    "metaDescription": "wedding_meta_description",
+    "considerTitle": "consider_title",
+    "allPriceTitle": "price_title",
+    "whatIsIncludedTitle": "what_is_included",
+    "highlights": [
+      {
+        "icon": "people",
+        "label": "wedding_venue_highlights_maks_persons_label",
+        "caption": "wedding_venue_highlights_maks_persons_caption"
+      },
+      {
+        "icon": "time",
+        "label": "wedding_venue_highlights_duration_label",
+        "caption": "wedding_venue_highlights_duration_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": "1",
+        "label": "wedding_venue_description_title",
+        "text": "wedding_venue_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "key",
+        "label": "amenity_space_label",
+        "caption": "amenity_space_caption"
+      },
+      {
+        "icon": "bed",
+        "label": "amenity_bed_label",
+        "caption": "wedding_venue_amenity_bed_caption"
+      },
+      {
+        "icon": "kitchen",
+        "label": "amenity_kitchen_label",
+        "caption": "amenity_kitchen_caption"
+      },
+      {
+        "icon": "shower",
+        "label": "amenity_shower_label",
+        "caption": "amenity_shower_caption"
+      },
+      {
+        "icon": "chairs",
+        "label": "amenity_dinning_facilities_label",
+        "caption": "amenity_dinning_facilities_caption"
+      },
+      {
+        "icon": "canopy",
+        "label": "amenity_canopy_label",
+        "caption": "amenity_canopy_caption"
+      },
+      {
+        "icon": "volleyball",
+        "label": "amenity_volleyball_label",
+        "caption": "amenity_volleyball_caption"
+      },
+      {
+        "icon": "basketball",
+        "label": "amenity_basketball_label",
+        "caption": "amenity_basketball_caption"
+      },
+      {
+        "icon": "parking",
+        "label": "amenity_parking_label",
+        "caption": "amenity_sparking_caption"
+      }
+    ],
+
+    "extraDetails": [
+      {
+        "title": "wedding_venue_chair_covers_title",
+        "details": "wedding_venue_chair_covers_description"
+      },
+      {
+        "title": "wedding_venue_decorations_title",
+        "details": "wedding_venue_decorations_description"
+      },
+      {
+        "title": "wedding_venue_ceremony_title",
+        "details": "wedding_venue_ceremony_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "key",
+        "title": "viesu_majas_ire",
+        "forPerson": "wedding_venue_max_number_of_persons",
+        "totalPrice": "450 €"
+      },
+      {
+        "icon": "bed",
+        "title": "accommodation",
+        "forPerson": "accommodation_per_person",
+        "totalPrice": "15 €"
+      },
+      {
+        "icon": "bonfire",
+        "title": "wedding_bonfire_place",
+        "forPerson": "wedding_bonfire_accessories",
+        "totalPrice": "20 €"
+      },
+      {
+        "icon": "sauna",
+        "title": "sauna_rental",
+        "forPerson": "wedding_sauna_rental_max_number_of_persons",
+        "totalPrice": "60 €"
+      }
+    ]
+  }
+]

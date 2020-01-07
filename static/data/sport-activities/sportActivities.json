@@ -1,0 +1,380 @@
+[
+  {
+    "id": "1",
+    "title": "peintbols",
+    "priceTitle": "paintball_num_of_persons",
+    "priceFrom": "paintball_price_from",
+    "img": "/static/sport-activities/kaspars-peintbola-instruktors.jpg",
+    "alt": "paintball_alt",
+    "metaTitle": "paintball_meta_title",
+    "metaDescription": "paintball_meta_description",
+    "considerTitle": "consider_title",
+    "allPriceTitle": "price_title",
+    "whatIsIncludedTitle": "what_is_included",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "paintball_highlights_duration_label",
+        "caption": "highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "paintball_highlights_maks_persons_label",
+        "caption": "highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "label": "paintball_description_title",
+        "text": "paintball_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "paintball",
+        "label": "amenity_paintball_gun_label",
+        "caption": "amenity_paintball_gun_caption"
+      },
+      {
+        "icon": "paintball-paint",
+        "label": "amenity_paintball_balls_label",
+        "caption": "amenity_paintball_balls_caption"
+      },
+      {
+        "icon": "uniform",
+        "label": "amenity_paintball_uniform_label",
+        "caption": "amenity_paintball_uniform_caption"
+      },
+      {
+        "icon": "paintball-mask",
+        "label": "amenity_paintball_mask_label",
+        "caption": "amenity_paintball_mask_caption"
+      },
+      {
+        "icon": "gloves",
+        "label": "amenity_paintball_gloves_label",
+        "caption": "amenity_paintball_gloves_caption"
+      },
+      {
+        "icon": "tank",
+        "label": "amenity_paintball_gas_baloon_label",
+        "caption": "amenity_paintball_gas_baloon_caption"
+      }
+    ],
+    "extraDetails": [
+      {
+        "title": "take_with_you_title",
+        "details": "take_with_you_description"
+      },
+      {
+        "title": "purchase_title",
+        "details": "purchase_description"
+      },
+      {
+        "title": "school_trips_title",
+        "details": "school_trips_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "paintball",
+        "title": "starting_set",
+        "forPerson": "paintball_per_person",
+        "totalPrice": "7 €"
+      },
+      {
+        "icon": "paintball-paint",
+        "title": "paintball_balls_500",
+        "totalPrice": "17 €"
+      },
+      {
+        "icon": "paintball-balls",
+        "title": "paintball_balls_1000",
+        "totalPrice": "32 €"
+      },
+      {
+        "icon": "box",
+        "title": "paintball_balls_2000",
+        "totalPrice": "54 €"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "loka_sausana",
+    "priceTitle": "archery_num_of_persons",
+    "priceFrom": "archery_price_from",
+    "img": "/static/sport-activities/loka-sausana-izbraukuma.jpg",
+    "metaTitle": "archery_meta_title",
+    "metaDescription": "archery_meta_description",
+    "considerTitle": "consider_title",
+    "allPriceTitle": "price_title",
+    "whatIsIncludedTitle": "what_is_included",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "archery_highlights_duration_label",
+        "caption": "highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "archery_highlights_maks_persons_label",
+        "caption": "highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "label": "archery_description_title",
+        "text": "archery_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "targeting-1",
+        "label": "amenity_archery_target_label",
+        "caption": "amenity_archery_target_caption"
+      },
+      {
+        "icon": "bow",
+        "label": "amenity_archery_bow_label",
+        "caption": "amenity_archery_bow_caption"
+      },
+      {
+        "icon": "protector",
+        "label": "amenity_archery_protector_label",
+        "caption": "amenity_archery_protector_caption"
+      }
+    ],
+    "extraDetails": [
+      {
+        "title": "reservation_title",
+        "details": "reservation_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "archery",
+        "title": "archery_per_minutes",
+        "forPerson": "archery_per_person",
+        "totalPrice": "2 €"
+      },
+      {
+        "icon": "bow",
+        "title": "archery_per_hour",
+        "forPerson": "archery_per_person",
+        "totalPrice": "8 €"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "skolenu_ekskursijas",
+    "priceTitle": "school_trips_num_of_persons",
+    "priceFrom": "school_trips_price_from",
+    "img": "/static/sport-activities/peintbola-komanda.jpg",
+    "alt": "school_trips_alt",
+    "metaTitle": "school_trips_meta_title",
+    "metaDescription": "school_trips_meta_description",
+    "considerTitle": "consider_title",
+    "allPriceTitle": "price_title",
+    "whatIsIncludedTitle": "what_is_included",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "paintball_highlights_duration_label",
+        "caption": "highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "paintball_highlights_maks_persons_label",
+        "caption": "highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "label": "paintball_description_title",
+        "text": "school_trips_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "paintball",
+        "label": "amenity_paintball_gun_label",
+        "caption": "amenity_paintball_gun_caption"
+      },
+      {
+        "icon": "paintball-paint",
+        "label": "amenity_paintball_balls_label",
+        "caption": "amenity_school_trips_balls_caption"
+      },
+      {
+        "icon": "uniform",
+        "label": "amenity_paintball_uniform_label",
+        "caption": "amenity_paintball_uniform_caption"
+      },
+      {
+        "icon": "paintball-mask",
+        "label": "amenity_paintball_mask_label",
+        "caption": "amenity_paintball_mask_caption"
+      },
+      {
+        "icon": "gloves",
+        "label": "amenity_paintball_gloves_label",
+        "caption": "amenity_paintball_gloves_caption"
+      },
+      {
+        "icon": "tank",
+        "label": "amenity_paintball_gas_baloon_label",
+        "caption": "amenity_paintball_gas_baloon_caption"
+      }
+    ],
+    "extraDetails": [
+      {
+        "title": "take_with_you_title",
+        "details": "take_with_you_description"
+      },
+      {
+        "title": "purchase_title",
+        "details": "purchase_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "paintball",
+        "title": "starting_set",
+        "forPerson": "paintball_per_person",
+        "totalPrice": "7 €"
+      },
+      {
+        "icon": "paintball-paint",
+        "title": "school_trips_extra_balls",
+        "totalPrice": "1.5 €"
+      },
+      {
+        "icon": "archery",
+        "title": "loka_sausana",
+        "forPerson": "archery_per_minutes",
+        "totalPrice": "2 €"
+      },
+      {
+        "icon": "bonfire",
+        "title": "bonfire_title",
+        "totalPrice": "10 €"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "sporta_laukumi",
+    "priceTitle": "sport_fields_num_of_persons",
+    "priceFrom": "sport_fields_price_from",
+    "img": "/static/sport-activities/sporta-laukumi.jpg",
+    "alt": "sport_fields_alt",
+    "metaTitle": "sport_fields_meta_title",
+    "metaDescription": "sport_fields_meta_description",
+    "considerTitle": "consider_title",
+    "allPriceTitle": "price_title",
+    "whatIsIncludedTitle": "what_is_included",
+    "highlights": [
+      {
+        "icon": "time",
+        "label": "sport_fields_highlights_duration_label",
+        "caption": "highlights_duration_caption"
+      },
+      {
+        "icon": "people",
+        "label": "sport_fields_highlights_maks_persons_label",
+        "caption": "highlights_maks_persons_caption"
+      },
+      {
+        "icon": "location",
+        "label": "highlights_location_label",
+        "caption": "highlights_location_caption"
+      }
+    ],
+    "descriptions": [
+      {
+        "label": "sport_fields_description_title",
+        "text": "sport_fields_description_text"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "basketball",
+        "label": "amenity_sport_fields_basketball_label",
+        "caption": "amenity_sport_fields_basketball_caption"
+      },
+      {
+        "icon": "volleyball",
+        "label": "amenity_sport_fields_volleyball_label",
+        "caption": "amenity_sport_fields_volleyball_caption"
+      },
+      {
+        "icon": "canopy",
+        "label": "amenity_sport_fields_canopy_label",
+        "caption": "amenity_sport_fields_canopy_caption"
+      },
+      {
+        "icon": "dinning",
+        "label": "amenity_sport_fields_dinning_label",
+        "caption": "amenity_sport_fields_dinning_caption"
+      },
+      {
+        "icon": "parking",
+        "label": "amenity_sport_fields_parking_label",
+        "caption": "amenity_sport_fields_parking_caption"
+      }
+    ],
+    "extraDetails": [
+      {
+        "title": "take_with_you_title",
+        "details": "take_with_you_description"
+      },
+      {
+        "title": "additional_guests_title",
+        "details": "additional_guests_description"
+      }
+    ],
+    "allPrices": [
+      {
+        "icon": "basketball",
+        "title": "sport_fields_title",
+        "forPerson": "sport_fields_per_person",
+        "totalPrice": "50 €"
+      },
+      {
+        "icon": "time",
+        "title": "sport_fields_extra_hour",
+        "forPerson": "sport_fields_next_hour",
+        "totalPrice": "15 €"
+      },
+      {
+        "icon": "bonfire",
+        "title": "grill_place",
+        "forPerson": "grill_place_accessories",
+        "totalPrice": "32 €"
+      },
+      {
+        "icon": "sauna",
+        "title": "sauna_rental",
+        "forPerson": "sauna_rental_duration",
+        "totalPrice": "45 €"
+      }
+    ]
+  }
+]
