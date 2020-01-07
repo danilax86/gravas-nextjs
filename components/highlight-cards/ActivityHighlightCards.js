@@ -1,10 +1,12 @@
-import ActivityHighLightCard from '../highlight-card/ActivityHighLightCard';
-import HighlightCardItems from './style';
+import ActivityHighlightCard from "../highlight-card/ActivityHighlightCard";
+import HighlightCardItems from "./style";
 
-export default({highlights}) => (
-   <HighlightCardItems>
+const ActivityHighlightCards = ({ highlights }) => (
+  <HighlightCardItems>
     {highlights.map(highlight => (
-        <ActivityHighLightCard key={highlight.label} {...highlight}/>
+      <ActivityHighlightCard key={highlight.label} {...highlight} />
     ))}
-   </HighlightCardItems> 
-)
+  </HighlightCardItems>
+);
+
+export default ActivityHighlightCards;

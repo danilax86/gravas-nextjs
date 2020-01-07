@@ -14,7 +14,7 @@ import { withTranslation } from "../../i18n";
 const SportActivityPage = ({ t }) => {
   const router = useRouter();
   const { slug } = router.query;
-  const title = slug.replace(/\-/g, "_");
+  const title = slug.replace(/-/g, "_");
   const activity = sportActivities.find(
     sportActivity => sportActivity.title === title
   );
