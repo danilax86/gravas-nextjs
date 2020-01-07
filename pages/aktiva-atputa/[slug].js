@@ -4,7 +4,7 @@ import PageHeaderImage from "../../components/page-header-image/PageHeaderImage"
 import ServiceHeader from "../../components/service-header/ServiceHeader";
 import ActivityHighlightCards from "../../components/highlight-cards/ActivityHighlightCards";
 import { SportActivityDescriptions } from "../../components/page-descriptions/PageDescriptions";
-import Activityamenities from "../../components/amenities/Activityamenities";
+import ActivityAmenities from "../../components/amenities/ActivityAmenities";
 import ActivityExtraDetails from "../../components/extra-details/ActivityExtraDetails";
 import ActivityPriceTags from "../../components/pricesTags/ActivityPriceTags";
 import sportActivities from "../../static/data/sport-activities/sportActivities";
@@ -28,7 +28,7 @@ const SportActivityPage = ({ t }) => {
       <ServiceHeader title={t(activity.title)} />
       <ActivityHighlightCards highlights={activity.highlights} />
       <SportActivityDescriptions descriptions={activity.descriptions} />
-      <Activityamenities
+      <ActivityAmenities
         amenities={activity.amenities}
         title={activity.whatIsIncludedTitle}
       />
