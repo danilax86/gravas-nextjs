@@ -2,7 +2,7 @@ import Layout from "../../components/Layout";
 import PageHeaderImage from "../../components/page-header-image/PageHeaderImage";
 import PageHeader from "../../components/page-header/PageHeader";
 import { withTranslation, Link } from "../../i18n";
-import giftCardHeader from "../../static/data/index-page/giftCardHeader";
+import giftCardHeader from "../../static/data/index-page/giftcardHeader";
 import Button from "../../components/button/button";
 import Router from "next/router";
 
