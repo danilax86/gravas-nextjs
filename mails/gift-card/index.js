@@ -10,9 +10,7 @@ i18n.configure({
 const sendGiftCardMail = ({ email, reference }, locale = "lv", receiptUrl) => {
   i18n.setLocale(locale);
 
-  sgMail.setApiKey(
-    "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"
-  );
+  sgMail.setApiKey(process.env["SENDGRID_TOKEN"]);
 
   const mail = {
     to: email,

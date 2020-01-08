@@ -134,7 +134,7 @@ const PurchasePage = ({ t }) => {
               />
             )}
             {activeStep.key === "checkout" && isClient && (
-              <StripeProvider apiKey="pk_test_Uqap0sSh0JYSl7UvbuE0R8b200kZ0uCOyb">
+              <StripeProvider apiKey={process.env["STRIPE_PK"]}>
                 <Elements>
                   <CheckoutStep
                     title={t("checkout")}

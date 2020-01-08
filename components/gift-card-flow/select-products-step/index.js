@@ -37,8 +37,6 @@ const SelectServicesStep = ({ t, title, addProduct, handle }) => {
     notifyOnNetworkStatusChange: true
   });
 
-  console.log(error);
-
   return (
     <Step title={title}>
       <div>

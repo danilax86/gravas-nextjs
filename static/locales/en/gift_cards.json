@@ -1,3 +1,13 @@
 {
-    "page_title": "Gravas Gift Cards"
+  "gift_card_title": "Dāvanu kartes iegāde",
+  "gift_card_description": "Uzdāvini svētkus un atpūtu kopā ar Gravas dāvanu karti.",
+  "gift_card_alt": "Gravas dāvanu karte",
+  "gift_card_meta_title": "Gravas dāvanu kartes iegāde",
+  "gift_card_meta_description": "Dāvanu karte ir elektroniska dāvanu karte. Iegādāties dāvanu karti internetā ir ātrs veids kā atrast dāvanu mīļajiem, draugam, draudzenei vai ģimenei. Pirts rituāla dāvanu karte ir populāra dāvanu karte svētkos.",
+  "header_caption": "Uzdāvini atpūtu",
+  "landing_description": "Īss apraksts par dāvanu karti, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "buy": "Iegādāties",
+  "gift_card_flow_title": "Dāvanu kartes iegāde",
+  "design_step_label": "Izvēlieties dāvanu kartes dizainu",
+  "shopping_cart_heading": "Izvēlētās dāvanas"
 }

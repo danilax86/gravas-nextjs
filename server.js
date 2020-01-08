@@ -1,3 +1,4 @@
+require("dotenv").config();
 const next = require("next");
 const express = require("express");
 const fetch = require("cross-fetch/polyfill").fetch;
@@ -21,7 +22,7 @@ const handle = app.getRequestHandler();
 
 const apollo = new ApolloClient({
   link: createHttpLink({
-    uri: "http://localhost:8080/v1/graphql",
+    uri: process.env["HASURA_ENDPOINT"],
     fetch
   }),
   cache: new InMemoryCache()
