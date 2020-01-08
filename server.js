@@ -83,7 +83,7 @@ const apollo = new ApolloClient({
       });
 
       /** Send gift card in an email*/
-      sendGiftCardEmail(giftCard, locale, stripeResponse.receipt_url);
+      //sendGiftCardEmail(giftCard, locale, stripeResponse.receipt_url);
 
       res
         .send({
