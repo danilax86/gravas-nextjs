@@ -94,7 +94,7 @@ const apollo = new ApolloClient({
     } catch (error) {
       console.log(error);
       res
-        .send({ error: "Sorry, something went wrong" })
+        .send({ error: "Sorry, something went wrong", realError: error })
         .status(500)
         .end();
     }
