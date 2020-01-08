@@ -4,3 +4,4 @@ sendgrid.env
 scratchbook.js
 gift-card-pdf/output/*
 gift-card-pdf/qr/*
+.env
