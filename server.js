@@ -72,6 +72,8 @@ const apollo = new ApolloClient({
       /** Update gift card with stripe ref and set paid to true */
       handleGiftCardPaymentSuccess(giftCard, stripeResponse);
 
+      console.log("before pdf");
+
       /** Generate PDF and send emial to the user */
       await createPDF({
         id: giftCard.reference,
@@ -82,8 +84,12 @@ const apollo = new ApolloClient({
         products
       });
 
+      console.log("before sendgrid");
+
       /** Send gift card in an email*/
-      //sendGiftCardEmail(giftCard, locale, stripeResponse.receipt_url);
+      sendGiftCardEmail(giftCard, locale, stripeResponse.receipt_url);
+
+      console.log("before sending response");
 
       res
         .send({
@@ -92,7 +98,7 @@ const apollo = new ApolloClient({
         .status(200)
         .end();
     } catch (error) {
-      console.log(error);
+      console.error(error);
       res
         .send({ error: "Sorry, something went wrong", realError: error })
         .status(500)
