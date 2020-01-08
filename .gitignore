@@ -5,5 +5,5 @@ scratchbook.js
 gift-card-pdf/output/*
 gift-card-pdf/qr/*
 !gift-card-pdf/qr/.gitkeep
-gift-card-pdf/output/.gitkeep
+!gift-card-pdf/output/.gitkeep
 .env
