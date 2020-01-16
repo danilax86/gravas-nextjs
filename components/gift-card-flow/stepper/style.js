@@ -3,8 +3,17 @@ import styled from "@emotion/styled";
 export default styled.aside`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-top: 10rem;
 
+  .item {
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    p {
+      text-align: right;
+    }
+  }
   .step {
     height: 1rem;
     width: 1rem;
@@ -14,12 +23,14 @@ export default styled.aside`
     cursor: pointer;
     position: relative;
     box-sizing: border-box;
+    margin: 1rem;
 
     &.active {
       border-radius: 1rem;
       height: 2rem;
       width: 2rem;
       border: 0.5rem solid ${props => props.theme.colors.primary};
+      margin: 0.5rem;
     }
 
     &:after {

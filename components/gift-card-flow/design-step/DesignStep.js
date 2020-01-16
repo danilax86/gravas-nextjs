@@ -1,30 +1,55 @@
-import { Component } from "react";
+import { useState } from "react";
 import { withTranslation } from "../../../i18n";
+import styled from "@emotion/styled";
 
-import { Grid, Tile } from "./style";
+import { Tile as TileContainer, Title } from "./style";
 import Step from "../step";
 
 import DESIGNS from "../../../constants/designs";
 
-class DesignStep extends Component {
-  render() {
-    const { t, title, handleThemeSelect } = this.props;
+export const Grid = styled.ul`
+  display: grid;
+  grid-template-columns: 14rem 14rem;
+  grid-auto-rows: 14rem;
+  gap: 1rem;
+  margin-top: 1.5rem;
+`;
 
-    return (
-      <Step title={title}>
-        <Grid>
-          {DESIGNS.map(({ title }) => (
-            <Tile
-              onClick={e => handleThemeSelect(e.target.textContent)}
-              key={title}
-            >
-              {t(title)}
-            </Tile>
-          ))}
-        </Grid>
-      </Step>
-    );
-  }
-}
+const DesignStep = ({ t, handleThemeSelect }) => {
+  const [selectedDesign, setSelectedDesign] = useState(null);
+
+  return (
+    <Step title={t("design_title")}>
+      <Grid>
+        {DESIGNS.map(({ title }) => (
+          <Tile
+            key={title}
+            selected={title === selectedDesign}
+            title={t(title)}
+            value={title}
+            imagePath={`/static/gift-card/designs/${title}.jpg`}
+            handleSelect={title => {
+              handleThemeSelect(title);
+              setSelectedDesign(title);
+            }}
+          />
+        ))}
+      </Grid>
+    </Step>
+  );
+};
+
+export const Tile = ({ handleSelect, title, imagePath, selected, value }) => {
+  return (
+    <TileContainer
+      selected={selected}
+      onClick={() => handleSelect(value)}
+      key={title}
+    >
+      <img src={imagePath} />
+      <div>{title}</div>
+    </TileContainer>
+  );
+};
 
 export default withTranslation("gift_cards")(DesignStep);

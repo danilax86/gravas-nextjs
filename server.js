@@ -14,7 +14,7 @@ const sendGiftCardEmail = require("./mails/gift-card");
 
 const STORE_GIFT_CARD = require("./graphql/mutations/storeGiftCard");
 const GET_PRODUCTS_BY_ID = require("./graphql/queries/getProductsById");
-const HANDLE_GIFT_CARD_PYMENT_SUCCESS = require("./graphql/mutations/handleGiftCardPaymentSuccess");
+const HANDLE_GIFT_CARD_PAYMENT_SUCCESS = require("./graphql/mutations/handleGiftCardPaymentSuccess");
 
 const port = process.env.PORT || 3000;
 const app = next({ dev: process.env.NODE_ENV !== "production" });
@@ -36,6 +36,7 @@ const apollo = new ApolloClient({
 
   server.use(nextI18NextMiddleware(nextI18next));
 
+  // Purchase endpoint
   server.post("/charge", async (req, res) => {
     try {
       const { items, total, theme, note, locale } = req.body;
@@ -44,7 +45,9 @@ const apollo = new ApolloClient({
 
       /** Throw generic error if verifiedTotal does not match the total */
       if (verifiedTotal !== total) {
-        res.status(500).end();
+        throw new Error(
+          `Totals did not match, Expected: ${verifiedTotal}, Got: ${total}`
+        );
       }
 
       /** Persist gift card */
@@ -170,7 +173,7 @@ const handleGiftCardPaymentSuccess = async (giftCard, stripeResponse) => {
   const { id: stripe_ref } = stripeResponse;
 
   await apollo.mutate({
-    mutation: HANDLE_GIFT_CARD_PYMENT_SUCCESS,
+    mutation: HANDLE_GIFT_CARD_PAYMENT_SUCCESS,
     variables: {
       id: giftCard.id,
       stripe_ref

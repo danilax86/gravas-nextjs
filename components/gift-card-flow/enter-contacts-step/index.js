@@ -1,11 +1,25 @@
 import { useState, useEffect } from "react";
+import TextField from "@material-ui/core/TextField";
+import { withTranslation } from "../../../i18n";
+import styled from "@emotion/styled";
+import emailRegex from "../../../constants/emailRegex";
 
 import Step from "../step";
 
-const EnterContactsStep = ({ title, setContacts }) => {
+const TextFieldColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  .MuiTextField-root {
+    margin-bottom: 1rem;
+  }
+`;
+
+const EnterContactsStep = ({ t, title, setContacts }) => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
+  const [isValidEmail, setIsValidEmail] = useState(false);
 
   useEffect(() => {
     setContacts({
@@ -17,36 +31,35 @@ const EnterContactsStep = ({ title, setContacts }) => {
 
   return (
     <Step title={title}>
-      <div>
-        <label>Name</label>
-        <input
-          type="text"
+      <TextFieldColumn>
+        <TextField
+          variant="outlined"
+          label={t("name")}
           name="name"
-          value={name}
           onChange={e => setName(e.target.value)}
         />
-      </div>
-      <div>
-        <label>Phone</label>
-        <input
-          type="text"
+        <TextField
+          variant="outlined"
+          label={t("phone")}
           name="phone"
-          value={phone}
           onChange={e => setPhone(e.target.value)}
         />
-      </div>
-      <div>
-        <label>Email</label>
-        <input
-          type="email"
-          name="email"
-          value={email}
-          onChange={e => setEmail(e.target.value)}
+        <TextField
+          error={(email !== "") & !isValidEmail}
+          variant="outlined"
           required
+          type="email"
+          label={t("email")}
+          name="email"
+          onChange={e => {
+            const email = e.target.value;
+            setIsValidEmail(emailRegex.test(email));
+            setEmail(email);
+          }}
         />
-      </div>
+      </TextFieldColumn>
     </Step>
   );
 };
 
-export default EnterContactsStep;
+export default withTranslation("gift_cards")(EnterContactsStep);

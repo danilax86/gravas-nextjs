@@ -9,14 +9,13 @@ export const Nav = styled.nav`
   display: flex;
   height: 64px;
   justify-content: space-between;
-  margin-bottom: 2rem;
 
   .logo-items {
-    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
+
     .icon {
       display: none;
       cursor: pointer;
@@ -33,16 +32,12 @@ export const Nav = styled.nav`
 
     .gravas-logo {
       width: auto;
-      height: 3rem;
-      padding: 16px;
+      height: calc(64px - 2rem);
       box-sizing: content-box;
       cursor: pointer;
       margin-right: auto;
-
-      @media ${breakpoints.md} {
-        height: 3rem;
-      }
     }
+
     @media ${breakpoints.md} {
       width: 100%;
     }

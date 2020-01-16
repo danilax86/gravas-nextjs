@@ -1,6 +1,6 @@
 import gql from "graphql-tag";
 
-const GET_SERVICE_TYPES = gql`
+const GET_PRODUCT_TYPES = gql`
   query {
     types {
       id
@@ -9,4 +9,4 @@ const GET_SERVICE_TYPES = gql`
   }
 `;
 
-export default GET_SERVICE_TYPES;
+export default GET_PRODUCT_TYPES;

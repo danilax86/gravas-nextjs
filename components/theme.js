@@ -2,7 +2,8 @@ const theme = {
   colors: {
     primary: "#1E514B",
     primaryLight: "#4B7E77",
-    primaryDark: "#4B7E77",
+    primaryDark: "#002823",
+    primaryCool: "#37A7A2",
 
     secondary: "#F9E18B",
     secondaryLight: "#FFFFBC",
@@ -14,6 +15,7 @@ const theme = {
 
     darkGrey: "#333333",
     lightGrey: "#D8DACE",
+    superLightGrey: "#F2F2F2",
 
     white: "#FFFFFF"
   },
@@ -29,7 +31,9 @@ const theme = {
     headline4: "2rem",
     headline5: "1.5rem",
     title: "1.25rem",
-    body: "1rem"
+    body: "1rem",
+    button: ".8rem",
+    caption: ".75rem"
   },
   fontWeight: {
     light: "300",

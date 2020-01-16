@@ -1,25 +1,38 @@
 import { useState } from "react";
 import { useQuery } from "@apollo/react-hooks";
+import Chip from "@material-ui/core/Chip";
+import { Grid, Tile } from "../design-step/DesignStep";
+import styled from "@emotion/styled";
 
 import Step from "../step";
-import SelectService from "./views/SelectProduct";
+import SelectProduct from "./views/SelectProduct";
 import AddPoduct from "./views/AddProduct";
 import AddValue from "./views/AddValue";
 
-import GET_PRODUCT_TYPES from "./queries/getServiceTypes";
+import GET_PRODUCT_TYPES from "./queries/getProductTypes";
 
 import { withTranslation } from "../../../i18n";
 
+const SELECT_PRODUCT_TYPE = "select_product_type";
 const SELECT_PRODUCT = "select_product";
 const ADD_PRODUCT = "add_product";
 const ADD_VALUE = "add_value";
 
+const ChipContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+
+  .MuiChip-root {
+    margin: 0.25rem 0.25rem;
+  }
+`;
+
 const SelectServicesStep = ({ t, title, addProduct, handle }) => {
   const [selectedType, setSelectedType] = useState();
-  const [product, setProduct] = useState();
+  const [product, setProduct] = useState(null);
 
   const setStepDefaults = () => {
-    setSelectedType(null);
+    setSelectedType();
     setProduct(null);
     setView(SELECT_PRODUCT_TYPE);
   };
@@ -29,7 +42,6 @@ const SelectServicesStep = ({ t, title, addProduct, handle }) => {
     addProduct(product, data);
   };
 
-  const SELECT_PRODUCT_TYPE = "select_product_type";
   const [view, setView] = useState(SELECT_PRODUCT_TYPE);
 
   const { loading, error, data } = useQuery(GET_PRODUCT_TYPES, {
@@ -39,62 +51,57 @@ const SelectServicesStep = ({ t, title, addProduct, handle }) => {
 
   return (
     <Step title={title}>
-      <div>
-        <h2>Current selection</h2>
+      <ChipContainer>
         {selectedType && (
-          <div>
-            <span>{selectedType.name}</span>
-            <span
-              onClick={() => {
-                setSelectedType(null);
-                setProduct(null);
-                setView(SELECT_PRODUCT_TYPE);
-              }}
-            >
-              X
-            </span>
-          </div>
+          <Chip
+            clickable
+            onDelete={() => {
+              setSelectedType(null);
+              setProduct(null);
+              setView(SELECT_PRODUCT_TYPE);
+            }}
+            label={t(selectedType.name)}
+          />
         )}
         {product && (
-          <div>
-            <span>{product.name}</span>
-            <span
-              onClick={() => {
-                setProduct(null);
-                setView(SELECT_PRODUCT);
-              }}
-            >
-              X
-            </span>
-          </div>
+          <Chip
+            clickable
+            onDelete={() => {
+              setProduct(null);
+              setView(SELECT_PRODUCT);
+            }}
+            label={t(product.name)}
+          />
         )}
-      </div>
+      </ChipContainer>
 
       {/* Types */}
       {view === SELECT_PRODUCT_TYPE && (
-        <div>
+        <Grid>
           {!loading &&
             data.types.map(type => (
-              <div
+              <Tile
+                imagePath={`/static/gift-card/product-types/${type.name}.jpg`}
+                title={t(type.name)}
                 key={type.id}
-                onClick={() => {
+                value={type}
+                handleSelect={type => {
                   setSelectedType(type);
-
                   type.name === "value"
                     ? setView(ADD_VALUE)
                     : setView(SELECT_PRODUCT);
                 }}
               >
                 {type.name}
-              </div>
+              </Tile>
             ))}
-        </div>
+        </Grid>
       )}
 
       {/* Products */}
       {view === SELECT_PRODUCT && (
         <div>
-          <SelectService
+          <SelectProduct
             type={selectedType}
             handleSelectProduct={product => {
               setProduct(product);

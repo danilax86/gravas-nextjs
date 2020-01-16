@@ -2,13 +2,22 @@ import { Component } from "react";
 import { CardElement, injectStripe } from "react-stripe-elements";
 import Step from "../step";
 import STEPS from "../../../constants/steps";
-import { i18n } from "../../../i18n";
+import { withTranslation, i18n } from "../../../i18n";
+import Button from "../../button/button";
+import { css } from "@emotion/core";
+
+const createOptions = () => {
+  return {};
+};
 
 class CheckoutStep extends Component {
   constructor(props) {
     super(props);
     this.submit = this.submit.bind(this);
   }
+  state = {
+    errorMessage: ""
+  };
 
   handlePurchaseSuccess({ reference }) {
     const { setActiveStep, setReference } = this.props;
@@ -20,6 +29,11 @@ class CheckoutStep extends Component {
     console.log(error);
     this.props.setSnackbarText(error);
   }
+  handleChange = ({ error }) => {
+    if (error) {
+      this.setState({ errorMessage: error.message });
+    }
+  };
 
   async submit(e) {
     const { shoppingCartItems, contacts, theme, note } = this.props;
@@ -65,15 +79,31 @@ class CheckoutStep extends Component {
   }
 
   render() {
-    const { title } = this.props;
+    const { title, t } = this.props;
     return (
-      <Step title={title}>
-        4242 4242 4242 4242
-        <CardElement />
-        <button onClick={this.submit}>Pay</button>
+      <Step title={t(title)}>
+        <CardElement
+          onChange={this.handleChange}
+          {...createOptions()}
+          hidePostalCode
+        />
+        <p>4242 4242 4242 4242</p>
+        <div className="error" role="alert">
+          {this.state.errorMessage}
+        </div>
+        <Button
+          onClick={this.submit}
+          type="button"
+          buttonStyle="btn--primary--solid"
+          children={t("pay")}
+          style={{
+            marginLeft: "auto",
+            marginRight: 0
+          }}
+        />
       </Step>
     );
   }
 }
 
-export default injectStripe(CheckoutStep);
+export default injectStripe(withTranslation("gift_cards")(CheckoutStep));

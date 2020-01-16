@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { css } from "@emotion/core";
 
 const ButtonStyle = styled.button`
   border-radius: 0.5rem;
@@ -8,7 +9,13 @@ const ButtonStyle = styled.button`
   padding: 0 1rem;
   font-size: ${props => props.theme.fonts.body};
   font-weight: ${props => props.theme.fontWeight.light};
-  margin-right: 2rem;
+
+  ${p =>
+    p.disabled &&
+    css`
+      pointer-events: none;
+      opacity: 0.5;
+    `}
 
   &.btn--primary--solid {
     background: ${props => props.theme.colors.primary};

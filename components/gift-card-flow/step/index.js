@@ -1,8 +1,8 @@
-import { Step } from "./style.js";
+import { Step, StepTitle } from "./style.js";
 
 export default ({ children, title }) => (
   <Step>
-    <h2>{title}</h2>
+    <StepTitle>{title}</StepTitle>
     {children}
   </Step>
 );

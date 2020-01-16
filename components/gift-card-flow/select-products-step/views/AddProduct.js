@@ -1,6 +1,58 @@
 import { useState, useEffect } from "react";
+import { withTranslation } from "../../../../i18n";
+import TextField from "@material-ui/core/TextField";
+import IconButton from "@material-ui/core/IconButton";
+import Add from "@material-ui/icons/Add";
+import Remove from "@material-ui/icons/Remove";
+import styled from "@emotion/styled";
+import Button from "../../../button/button";
 
-export default ({ product, type, handleAddProduct }) => {
+export const InputCard = styled.div`
+  display: flex;
+  align-items: center;
+  height: 8rem;
+  margin: 2rem 1rem 2rem 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  padding-right: 1.5rem;
+
+  .image {
+    height: 8rem;
+    width: 8rem;
+    flex-shrink: 0;
+    margin-right: 1em;
+    object-fit: cover;
+  }
+
+  h3 {
+    margin-right: auto;
+  }
+
+  .MuiTextField-root {
+    width: 5rem;
+    margin: 0 0.5rem;
+  }
+`;
+
+export const AddProductControls = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  align-items: center;
+
+  span {
+    margin-right: 1rem;
+    font-size: ${p => p.theme.fonts.headline5};
+    color: ${p => p.theme.colors.darkGrey};
+  }
+
+  button {
+    margin-right: 0;
+  }
+`;
+
+const AddProduct = ({ t, product, type, handleAddProduct }) => {
   const [persons, setPersons] = useState(1);
   const [price, setPrice] = useState();
 
@@ -8,8 +60,7 @@ export default ({ product, type, handleAddProduct }) => {
     handlePriceChange();
   }, [persons]);
 
-  const handlePersonsInput = e => {
-    const desiredPersonsCount = Number(e.target.value);
+  const handlePersonsInput = desiredPersonsCount => {
     if (desiredPersonsCount >= 1) {
       if (
         (product.price_type.name === "absolute" &&
@@ -46,21 +97,41 @@ export default ({ product, type, handleAddProduct }) => {
         });
       }}
     >
-      <div>
-        <label>Persons</label>
-        <input
-          type="number"
+      <InputCard>
+        <img
+          className="image"
+          src={`/static/gift-card/products/${product.name}.jpg`}
+        />
+        <h3>{t(product.name)}</h3>
+        <IconButton
+          size="small"
+          onClick={() => handlePersonsInput(persons - 1)}
+        >
+          <Remove />
+        </IconButton>
+
+        <TextField
+          variant="outlined"
+          label={t("persons")}
           name="persons"
+          type="number"
           value={persons}
           min={1}
-          onChange={handlePersonsInput}
+          onChange={e => handlePersonsInput(Number(e.target.value))}
         />
-        <div>
-          <div>Price</div>
-          <div>€ {price}</div>
-        </div>
-      </div>
-      <button>Add</button>
+        <IconButton
+          size="small"
+          onClick={() => handlePersonsInput(persons + 1)}
+        >
+          <Add />
+        </IconButton>
+      </InputCard>
+      <AddProductControls>
+        <span>€ {price}</span>
+        <Button>{t("add")}</Button>
+      </AddProductControls>
     </form>
   );
 };
+
+export default withTranslation("gift_card")(AddProduct);

@@ -1,15 +1,15 @@
 const designs = [
   {
-    title: "winter"
+    title: "conifer"
   },
   {
-    title: "spring"
+    title: "petals"
+  },
+  {
+    title: "meadow"
   },
   {
     title: "summer"
-  },
-  {
-    title: "autumn"
   }
 ];
 

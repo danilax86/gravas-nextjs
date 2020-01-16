@@ -3,6 +3,7 @@ import { withTranslation } from "../../i18n";
 import { withApollo } from "../../lib/apollo";
 import { Elements, StripeProvider } from "react-stripe-elements";
 import Snackbar from "@material-ui/core/Snackbar";
+import styled from "@emotion/styled";
 
 // Style
 import Layout from "../../components/Layout";
@@ -25,17 +26,23 @@ import Controls from "../../components/gift-card-flow/controls/Controls";
 import STEPS from "../../constants/steps";
 import emailRegex from "../../constants/emailRegex";
 
+const Headline = styled.h1`
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  color: ${p => p.theme.colors.primaryDark};
+`;
+
 const PurchasePage = ({ t }) => {
   const [snackbarText, setSnackbarText] = useState("");
   const [stepper, setStepper] = useState(STEPS);
   const [activeStep, setActiveStep] = useState(STEPS[0]);
   const [isClient, setIsClient] = useState(false);
-  const [theme, setTheme] = useState("summer");
+  const [theme, setTheme] = useState(null);
   const [shoppingCartItems, setShoppingCartItems] = useState([]);
-  const [note, setNote] = useState("Some test note");
-  const [contacts, setContacts] = useState({
-    email: "jekabs.donis@gmail.com"
-  });
+  const [note, setNote] = useState();
+  const [contacts, setContacts] = useState({});
   const [reference, setReference] = useState(null);
 
   useEffect(() => {
@@ -106,7 +113,7 @@ const PurchasePage = ({ t }) => {
     <Layout>
       <Container>
         <Main>
-          <h1>{t("gift_card_flow_title")}</h1>
+          <Headline>{t("gift_card_flow_title")}</Headline>
           <Content>
             <Stepper steps={STEPS} activeStep={activeStep} />
             {activeStep.key === "design" && (
@@ -150,15 +157,12 @@ const PurchasePage = ({ t }) => {
               </StripeProvider>
             )}
             {activeStep.key === "receipt" && (
-              <ReceiptStep title={t("receipt")} reference={reference} />
+              <ReceiptStep
+                title={t("receipt")}
+                contactEmail={setContacts.email}
+              />
             )}
           </Content>
-          <Controls
-            steps={STEPS}
-            activeStep={activeStep}
-            handleBack={() => handleBack(stepper)}
-            handleNext={() => handleNext(stepper, activeStep)}
-          />
         </Main>
         <ShoppingCart
           theme={theme}
@@ -167,6 +171,13 @@ const PurchasePage = ({ t }) => {
           removeProduct={removeProduct}
         />
       </Container>
+      <Controls
+        total={shoppingCartItems.reduce((total, item) => total + item.price, 0)}
+        steps={STEPS}
+        activeStep={activeStep}
+        handleBack={() => handleBack(stepper)}
+        handleNext={() => handleNext(stepper, activeStep)}
+      />
       <Snackbar
         message={snackbarText}
         open={!!snackbarText}

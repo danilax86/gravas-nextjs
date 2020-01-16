@@ -11,6 +11,10 @@ export const BottomItems = styled.div`
   bottom: 0;
   left: 0;
   z-index: 2;
+
+  button {
+    margin-right: 2rem;
+  }
 `;
 
 export const ModalItems = styled.div`
@@ -20,6 +24,7 @@ export const ModalItems = styled.div`
   align-items: center;
   margin: 2rem 1rem;
   max-width: 31rem;
+
   p {
     padding-top: 1rem;
   }

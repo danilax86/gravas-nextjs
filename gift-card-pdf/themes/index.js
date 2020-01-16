@@ -10,7 +10,7 @@ const themes = [
     }
   },
   {
-    name: "winter",
+    name: "conifer",
     image: "conifer.jpg",
     title: {
       color: "#FFFFFF"
@@ -20,7 +20,7 @@ const themes = [
     }
   },
   {
-    name: "spring",
+    name: "petals",
     image: "petals.jpg",
     title: {
       color: "#192C28"
@@ -30,7 +30,7 @@ const themes = [
     }
   },
   {
-    name: "autumn",
+    name: "meadow",
     image: "meadow.jpg",
     title: {
       color: "#192C28"
