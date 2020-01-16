@@ -1,6 +1,10 @@
 # Gravas
 
-## Transations
+## Production link
+
+https://gravas-next.herokuapp.com/
+
+## Translations
 
 ### Adding a new translation namespace.
 
@@ -26,12 +30,12 @@ Index.getInitialProps = ( async () => ({
 //import HOC (Higher order component) for translations
 import { withTranslation } from '../../i18n'
 
-//since the export below is wrapped in the HOC, we 
+//since the export below is wrapped in the HOC, we
 //have acess to the prop "t" (short for translate)
-const Navbar = ({ t }) => { 
+const Navbar = ({ t }) => {
     ...
     return (
-        <div>{ t('my_translation_key')}</div> 
+        <div>{ t('my_translation_key')}</div>
         //Will give <div>Translation</div>
     )
 }
@@ -42,6 +46,7 @@ export default withTranslation('navbar')(Navbar)
 ```
 
 ### Access current language
+
 In order to access the currently set language do the following
 
 ```javascript
@@ -73,20 +78,21 @@ Set the following in your translation file:
 
 ```json
 {
-    "key": "this is my translation string with {{some_variable_name}}"
+  "key": "this is my translation string with {{some_variable_name}}"
 }
 ```
 
 and, use it like this in your component:
 
 ```javascript
-t('key', { some_variable_name: "some custom value" })
+t("key", { some_variable_name: "some custom value" });
 //Will result in "this is my translation string with some custom value"
 ```
 
 ### Pluralization
 
 To pluralize your translations conditionally, set the following in your translation file:
+
 ```json
 {
   "key": "item",
@@ -95,11 +101,12 @@ To pluralize your translations conditionally, set the following in your translat
   "keyWithCount_plural": "{{count}} items"
 }
 ```
+
 and, use it like this in your component:
 
 ```javascript
-t('key', { count: 1 }) // "item"
-t('key', { count: 55 }) // "items"
-t('keyWithCount', { count: 1 }) // "1 item"
-t('keyWithCount', { count: 100 }) // "100 items"
+t("key", { count: 1 }); // "item"
+t("key", { count: 55 }); // "items"
+t("keyWithCount", { count: 1 }); // "1 item"
+t("keyWithCount", { count: 100 }); // "100 items"
 ```
