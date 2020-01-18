@@ -15,10 +15,10 @@ const TextFieldColumn = styled.div`
   }
 `;
 
-const EnterContactsStep = ({ t, title, setContacts }) => {
-  const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [email, setEmail] = useState("");
+const EnterContactsStep = ({ t, title, setContacts, contacts }) => {
+  const [name, setName] = useState(contacts.name);
+  const [phone, setPhone] = useState(contacts.phone);
+  const [email, setEmail] = useState(contacts.email);
   const [isValidEmail, setIsValidEmail] = useState(false);
 
   useEffect(() => {
@@ -33,18 +33,21 @@ const EnterContactsStep = ({ t, title, setContacts }) => {
     <Step title={title}>
       <TextFieldColumn>
         <TextField
+          value={name}
           variant="outlined"
           label={t("name")}
           name="name"
           onChange={e => setName(e.target.value)}
         />
         <TextField
+          value={phone}
           variant="outlined"
           label={t("phone")}
           name="phone"
           onChange={e => setPhone(e.target.value)}
         />
         <TextField
+          value={email}
           error={(email !== "") & !isValidEmail}
           variant="outlined"
           required

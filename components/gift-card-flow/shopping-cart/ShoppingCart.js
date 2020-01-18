@@ -78,9 +78,9 @@ const ShoppingCartItemContainer = styled.div`
   }
 `;
 
-const ShoppingCartItem = ({ key, item, removeProduct, unit }) => {
+const ShoppingCartItem = ({ uid, item, removeProduct, unit }) => {
   return (
-    <ShoppingCartItemContainer key={key}>
+    <ShoppingCartItemContainer>
       <div className="details">
         <div className="name">{item.name}</div>
         {!!unit && (
@@ -123,7 +123,7 @@ const ShoppingCart = ({ t, theme, items, note, removeProduct }) => {
           {items.map(item => (
             <ShoppingCartItem
               item={item}
-              key={item.id}
+              key={item.uid}
               unit={!!item.persons && t("persons")}
               removeProduct={removeProduct}
             />

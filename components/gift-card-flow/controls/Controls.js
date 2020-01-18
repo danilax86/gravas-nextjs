@@ -1,3 +1,4 @@
+import React from "react";
 import Button from "../../button/button";
 import { Footer, ControlItems, ShoppingAmount } from "./style";
 import { withTranslation } from "../../../i18n";
@@ -12,27 +13,38 @@ const Controls = ({
 }) => {
   const isFirstStep =
     steps.findIndex(step => step.key === activeStep.key) === 0;
+
+  const isLastStep =
+    steps.findIndex(step => step.key === activeStep.key) === steps.length - 1;
   return (
     <Footer>
       <ControlItems>
-        <Button
-          onClick={handleBack}
-          disabled={isFirstStep}
-          type="button"
-          buttonStyle="btn--primary--solid"
-          children={t("back_button")}
-        />
+        {!isLastStep && (
+          <React.Fragment>
+            <Button
+              onClick={handleBack}
+              disabled={isFirstStep || isLastStep}
+              type="button"
+              buttonStyle="btn--primary--solid"
+              children={t("back_button")}
+            />
 
-        <Button
-          disabled={!activeStep.complete}
-          onClick={handleNext}
-          type="button"
-          buttonStyle="btn--primary--outline"
-          children={t("next_button")}
-        />
+            <Button
+              disabled={!activeStep.complete}
+              onClick={handleNext}
+              type="button"
+              buttonStyle="btn--primary--outline"
+              children={t("next_button")}
+            />
+          </React.Fragment>
+        )}
       </ControlItems>
 
-      <ShoppingAmount>€ {total}</ShoppingAmount>
+      {!isLastStep && (
+        <React.Fragment>
+          <ShoppingAmount>€ {total}</ShoppingAmount>
+        </React.Fragment>
+      )}
     </Footer>
   );
 };

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import uniqid from "uniqid";
 import { withTranslation } from "../../i18n";
 import { withApollo } from "../../lib/apollo";
 import { Elements, StripeProvider } from "react-stripe-elements";
@@ -60,9 +61,15 @@ const PurchasePage = ({ t }) => {
     setIsClient(true);
 
     shoppingCartItems.length === 0 &&
-      activeStep.key !== "design" &&
+      !["design", "receipt"].includes(activeStep.key) &&
       setActiveStep(getStep("select_products"));
   }, [shoppingCartItems, contacts]);
+
+  const resetFlow = () => {
+    setTheme(null);
+    setShoppingCartItems([]);
+    setNote();
+  };
 
   const handleBack = stepper => {
     const prevStep = getAdjacentStep(stepper, activeStep, false);
@@ -97,6 +104,7 @@ const PurchasePage = ({ t }) => {
     setShoppingCartItems([
       ...shoppingCartItems,
       {
+        uid: uniqid.time(),
         ...product,
         ...data
       }
@@ -132,12 +140,17 @@ const PurchasePage = ({ t }) => {
               />
             )}
             {activeStep.key === "enter_note" && (
-              <EnterNoteStep title={t("enter_note")} setNote={setNote} />
+              <EnterNoteStep
+                title={t("enter_note")}
+                setNote={setNote}
+                note={note}
+              />
             )}
             {activeStep.key === "enter_contacts" && (
               <EnterContactsStep
                 title={t("enter_contacts")}
                 setContacts={setContacts}
+                contacts={contacts}
               />
             )}
             {activeStep.key === "checkout" && isClient && (
@@ -149,6 +162,7 @@ const PurchasePage = ({ t }) => {
                     note={note}
                     contacts={contacts}
                     shoppingCartItems={shoppingCartItems}
+                    resetFlow={resetFlow}
                     setActiveStep={setActiveStep}
                     setReference={setReference}
                     setSnackbarText={setSnackbarText}
@@ -157,10 +171,7 @@ const PurchasePage = ({ t }) => {
               </StripeProvider>
             )}
             {activeStep.key === "receipt" && (
-              <ReceiptStep
-                title={t("receipt")}
-                contactEmail={setContacts.email}
-              />
+              <ReceiptStep title={t("receipt")} contactEmail={contacts.email} />
             )}
           </Content>
         </Main>

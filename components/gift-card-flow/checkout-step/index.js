@@ -4,7 +4,6 @@ import Step from "../step";
 import STEPS from "../../../constants/steps";
 import { withTranslation, i18n } from "../../../i18n";
 import Button from "../../button/button";
-import { css } from "@emotion/core";
 
 const createOptions = () => {
   return {};
@@ -20,13 +19,14 @@ class CheckoutStep extends Component {
   };
 
   handlePurchaseSuccess({ reference }) {
-    const { setActiveStep, setReference } = this.props;
+    const { setActiveStep, setReference, resetFlow } = this.props;
     setActiveStep(STEPS.find(step => step.key === "receipt"));
+    resetFlow();
     setReference(reference);
   }
 
   handlePurchaseError({ error }) {
-    console.log(error);
+    console.error(error);
     this.props.setSnackbarText(error);
   }
   handleChange = ({ error }) => {
@@ -47,8 +47,7 @@ class CheckoutStep extends Component {
           return {
             id,
             persons,
-            price,
-            value
+            price
           };
         }),
         contacts,
@@ -58,7 +57,6 @@ class CheckoutStep extends Component {
         token: token.id,
         locale: i18n.language
       };
-
       let response = await fetch("/charge", {
         method: "POST",
         headers: {
@@ -74,7 +72,7 @@ class CheckoutStep extends Component {
         ? this.handlePurchaseSuccess(data)
         : this.handlePurchaseError(data);
     } else {
-      console.log(error);
+      console.error(error);
     }
   }
 

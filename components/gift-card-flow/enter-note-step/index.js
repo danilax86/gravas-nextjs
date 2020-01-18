@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Step from "../step";
 import TextField from "@material-ui/core/TextField";
 import { withTranslation } from "../../../i18n";
@@ -11,7 +11,7 @@ const CharCounter = styled.div`
     p.maxCharsReached ? p.theme.colors.error : p.theme.colors.primary};
 `;
 
-const EnterNoteStep = ({ t, title, setNote }) => {
+const EnterNoteStep = ({ t, title, setNote, note }) => {
   const [charCount, setCharCount] = useState(0);
   const [value, setValue] = useState("");
 
@@ -22,6 +22,10 @@ const EnterNoteStep = ({ t, title, setNote }) => {
     }
     setCharCount(value.length);
   };
+
+  useEffect(() => {
+    note && handleOnChange(note);
+  });
 
   return (
     <Step title={title}>

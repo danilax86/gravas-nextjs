@@ -23,6 +23,8 @@ const ReceiptBox = styled.div`
   }
 `;
 const ReceiptStep = ({ title, contactEmail, t }) => {
+  console.log(contactEmail);
+
   return (
     <Step title={title}>
       <ReceiptBox>

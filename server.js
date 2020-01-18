@@ -123,7 +123,7 @@ const getProductsById = async productIds => {
 const calculateTotal = (products, items) => {
   return items.reduce((carry, item) => {
     const product = products.find(({ id }) => id === item.id);
-    return carry + calculatePrice(item.persons || item.value, product);
+    return carry + calculatePrice(item.persons || item.price, product);
   }, 0);
 };
 
@@ -148,7 +148,7 @@ const storeGiftCard = async (data, products) => {
       email: contacts.email,
       name: contacts.name || null,
       phone: contacts.phone || null,
-      note: note,
+      note: note || " ",
       stripe_ref: token,
       valid_until: moment()
         .add(8, "months")
@@ -158,10 +158,10 @@ const storeGiftCard = async (data, products) => {
           const product = products.find(({ id }) => id === item.id);
           return {
             name: product.name,
-            price: calculatePrice(item.persons || item.value, product),
+            price: calculatePrice(item.persons || item.price, product),
             price_type: product.price_type.name,
             type: product.type.name,
-            data: item.persons || item.value
+            data: item.persons || item.price
           };
         })
       }

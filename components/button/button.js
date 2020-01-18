@@ -16,6 +16,7 @@ const Button = ({
   onClick,
   buttonStyle,
   buttonColor,
+  hidden,
   ...rest
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)

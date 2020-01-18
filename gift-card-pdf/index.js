@@ -27,11 +27,6 @@ const createPDF = async ({
   await qrcode.toFile(qrPath, id);
   const theme = themes.find(theme => theme.name === themeName);
 
-  console.log({
-    themeName,
-    themes
-  });
-
   const pdf = new PdfKit();
   pdf.registerFont("Regular", "./gift-card-pdf/fonts/Roboto-Regular.ttf");
   pdf.registerFont("Bold", "./gift-card-pdf/fonts/Roboto-Bold.ttf");

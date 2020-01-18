@@ -43,7 +43,7 @@
   "note": "Gift card title",
   "persons": "persons",
   "thank_you_for_purchase": "Thank you for your purchase",
-  "gift_card_sent_to_email": "Gift card is sent to",
+  "gift_card_sent_to_email": "Gift card is sent to {{ contactEmail }}",
   "back_to_home": "Back to home",
   "receipt": "Receipt"
 }

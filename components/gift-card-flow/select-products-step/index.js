@@ -27,7 +27,7 @@ const ChipContainer = styled.div`
   }
 `;
 
-const SelectServicesStep = ({ t, title, addProduct, handle }) => {
+const SelectProductsStep = ({ t, title, addProduct, handle }) => {
   const [selectedType, setSelectedType] = useState();
   const [product, setProduct] = useState(null);
 
@@ -126,4 +126,4 @@ const SelectServicesStep = ({ t, title, addProduct, handle }) => {
   );
 };
 
-export default withTranslation("gift_cards")(SelectServicesStep);
+export default withTranslation("gift_cards")(SelectProductsStep);

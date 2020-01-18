@@ -44,7 +44,8 @@
     "react-stripe-elements": "^6.0.1",
     "react-top-loading-bar": "^1.2.0",
     "redux": "^4.0.4",
-    "stripe": "^7.13.0"
+    "stripe": "^7.13.0",
+    "uniqid": "^5.2.0"
   },
   "scripts": {
     "dev": "next",
