@@ -50,7 +50,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "NODE_ENV=development node server.js",
+    "start": "node server.js",
     "hasura": "cd hasura && docker-compose up -d",
     "migrate": "cd hasura-gravas && hasura migrate apply"
   },
