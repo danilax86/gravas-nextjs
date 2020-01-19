@@ -1,4 +1,5 @@
-import { Component } from "react";
+import React, { Component } from "react";
+import CircularProgress from "@material-ui/core/CircularProgress";
 import { CardElement, injectStripe } from "react-stripe-elements";
 import Step from "../step";
 import STEPS from "../../../constants/steps";
@@ -15,7 +16,8 @@ class CheckoutStep extends Component {
     this.submit = this.submit.bind(this);
   }
   state = {
-    errorMessage: ""
+    errorMessage: "",
+    paying: false
   };
 
   handlePurchaseSuccess({ reference }) {
@@ -37,6 +39,8 @@ class CheckoutStep extends Component {
 
   async submit(e) {
     const { shoppingCartItems, contacts, theme, note } = this.props;
+
+    this.setState({ paying: true });
 
     const { error, token } = await this.props.stripe.createToken({
       name: "Name"
@@ -66,6 +70,8 @@ class CheckoutStep extends Component {
         body: JSON.stringify(body)
       });
 
+      this.setState({ paying: false });
+
       const data = await response.json();
 
       response.ok && data.error === undefined
@@ -91,9 +97,21 @@ class CheckoutStep extends Component {
         </div>
         <Button
           onClick={this.submit}
+          disabled={this.state.paying}
           type="button"
           buttonStyle="btn--primary--solid"
-          children={t("pay")}
+          children={
+            <React.Fragment>
+              <span
+                {...(this.state.paying && { style: { marginRight: "1rem" } })}
+              >
+                {t("pay")}
+              </span>
+              {this.state.paying && (
+                <CircularProgress size={24} color="white" />
+              )}
+            </React.Fragment>
+          }
           style={{
             marginLeft: "auto",
             marginRight: 0

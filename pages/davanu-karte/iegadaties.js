@@ -36,16 +36,20 @@ const Headline = styled.h1`
 `;
 
 const PurchasePage = ({ t }) => {
+  //UI STATE
   const [snackbarText, setSnackbarText] = useState("");
   const [stepper, setStepper] = useState(STEPS);
   const [activeStep, setActiveStep] = useState(STEPS[0]);
   const [isClient, setIsClient] = useState(false);
+
+  //GIFT CARD FLOW STATE
   const [theme, setTheme] = useState(null);
   const [shoppingCartItems, setShoppingCartItems] = useState([]);
   const [note, setNote] = useState();
   const [contacts, setContacts] = useState({});
   const [reference, setReference] = useState(null);
 
+  //Runs when shoppingCartItems or contacts change
   useEffect(() => {
     // Complete select products step
     const selectProductsStep = getStep("select_products");
@@ -58,31 +62,41 @@ const PurchasePage = ({ t }) => {
       contacts.email && emailRegex.test(contacts.email)
     );
 
+    // Needed for server side rendering
     setIsClient(true);
 
+    //Throws user back to select products, if not in the first or last step
+    //and there are no products in the shopping cart
     shoppingCartItems.length === 0 &&
       !["design", "receipt"].includes(activeStep.key) &&
       setActiveStep(getStep("select_products"));
   }, [shoppingCartItems, contacts]);
 
+  //Methods
+
+  // Resets flow to the initial state
   const resetFlow = () => {
     setTheme(null);
     setShoppingCartItems([]);
     setNote();
   };
 
+  // Go back
   const handleBack = stepper => {
     const prevStep = getAdjacentStep(stepper, activeStep, false);
     setActiveStep(prevStep);
   };
 
+  // Go forward
   const handleNext = (stepper, activeStep) => {
     const nextStep = getAdjacentStep(stepper, activeStep);
     setActiveStep(nextStep);
   };
 
+  // Find step by key
   const getStep = key => stepper.find(step => step.key === key);
 
+  // Sets complete value for a given step
   const completeStep = (CompleteableStep, value = true) => {
     setStepper(
       stepper.map(step => {
@@ -94,12 +108,16 @@ const PurchasePage = ({ t }) => {
     );
   };
 
+  //gets either the prev or last step for the given step
   const getAdjacentStep = (stepper, activeStep, next = true) => {
     return stepper[
       stepper.findIndex(step => step.key === activeStep.key) + (next ? 1 : -1)
     ];
   };
 
+  getAdjacentStep(stepper, activeStep, false);
+
+  // Adds product to the shopping cart
   const addProduct = (product, data) => {
     setShoppingCartItems([
       ...shoppingCartItems,
@@ -111,10 +129,9 @@ const PurchasePage = ({ t }) => {
     ]);
   };
 
-  const removeProduct = deleteableItem => {
-    setShoppingCartItems(
-      shoppingCartItems.filter(item => item !== deleteableItem)
-    );
+  // Removes product from the shopping cart
+  const removeProduct = product => {
+    setShoppingCartItems(shoppingCartItems.filter(item => item !== product));
   };
 
   return (
@@ -124,6 +141,8 @@ const PurchasePage = ({ t }) => {
           <Headline>{t("gift_card_flow_title")}</Headline>
           <Content>
             <Stepper steps={STEPS} activeStep={activeStep} />
+
+            {/** Design step */}
             {activeStep.key === "design" && (
               <DesignStep
                 handleThemeSelect={theme => {
@@ -133,12 +152,16 @@ const PurchasePage = ({ t }) => {
                 title={t("design_step_label")}
               />
             )}
+
+            {/** Select products step */}
             {activeStep.key === "select_products" && (
               <SelectProductsStep
                 title={t("select_products")}
                 addProduct={addProduct}
               />
             )}
+
+            {/** Enter note step */}
             {activeStep.key === "enter_note" && (
               <EnterNoteStep
                 title={t("enter_note")}
@@ -146,6 +169,8 @@ const PurchasePage = ({ t }) => {
                 note={note}
               />
             )}
+
+            {/** Enter contacts step */}
             {activeStep.key === "enter_contacts" && (
               <EnterContactsStep
                 title={t("enter_contacts")}
@@ -153,6 +178,8 @@ const PurchasePage = ({ t }) => {
                 contacts={contacts}
               />
             )}
+
+            {/** Checkout step */}
             {activeStep.key === "checkout" && isClient && (
               <StripeProvider apiKey="pk_test_Uqap0sSh0JYSl7UvbuE0R8b200kZ0uCOyb">
                 <Elements>
@@ -170,6 +197,8 @@ const PurchasePage = ({ t }) => {
                 </Elements>
               </StripeProvider>
             )}
+
+            {/** Receipt step */}
             {activeStep.key === "receipt" && (
               <ReceiptStep title={t("receipt")} contactEmail={contacts.email} />
             )}

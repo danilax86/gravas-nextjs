@@ -30,7 +30,9 @@ const ReceiptStep = ({ title, contactEmail, t }) => {
       <ReceiptBox>
         <img src="/static/receipt-icon.png" alt="" />
         <h3>{t("thank_you_for_purchase")}</h3>
-        <p>{t("gift_card_sent_to_email", { contactEmail })}</p>
+        <p id="gift_card_sent_to_email">
+          {t("gift_card_sent_to_email", { contactEmail })}
+        </p>
         <Button
           onClick={() => Router.push("/")}
           type="button"

@@ -3,6 +3,7 @@ import { useQuery } from "@apollo/react-hooks";
 import Chip from "@material-ui/core/Chip";
 import { Grid, Tile } from "../design-step/DesignStep";
 import styled from "@emotion/styled";
+import CircularProgress from "@material-ui/core/CircularProgress";
 
 import Step from "../step";
 import SelectProduct from "./views/SelectProduct";
@@ -78,11 +79,11 @@ const SelectProductsStep = ({ t, title, addProduct, handle }) => {
       {/* Types */}
       {view === SELECT_PRODUCT_TYPE && (
         <Grid>
-          {!loading &&
+          {!loading ? (
             data.types.map(type => (
               <Tile
                 imagePath={`/static/gift-card/product-types/${type.name}.jpg`}
-                title={t(type.name)}
+                name={t(type.name)}
                 key={type.id}
                 value={type}
                 handleSelect={type => {
@@ -94,7 +95,10 @@ const SelectProductsStep = ({ t, title, addProduct, handle }) => {
               >
                 {type.name}
               </Tile>
-            ))}
+            ))
+          ) : (
+            <CircularProgress />
+          )}
         </Grid>
       )}
 

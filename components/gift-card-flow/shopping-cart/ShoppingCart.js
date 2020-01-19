@@ -3,6 +3,13 @@ import styled from "@emotion/styled";
 import IconButton from "@material-ui/core/IconButton";
 import CheckIcon from "@material-ui/icons/Check";
 import DeleteOutlineIcon from "@material-ui/icons/DeleteOutline";
+import { motion } from "framer-motion";
+
+const cartAnimation = {
+  initial: { opacity: 0, y: 16 },
+  animate: { opacity: 1, y: 0 },
+  transition: { ease: "easeIn", duration: 0.2 }
+};
 
 const ShoppingCartContainer = styled.aside`
   background-color: ${p => p.theme.colors.superLightGrey};
@@ -48,7 +55,7 @@ const SectionTitle = ({ label }) => {
   );
 };
 
-const ShoppingCartItemContainer = styled.div`
+const ShoppingCartItemContainer = styled(motion.div)`
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
@@ -77,10 +84,9 @@ const ShoppingCartItemContainer = styled.div`
     color: ${p => p.theme.colors.primary};
   }
 `;
-
 const ShoppingCartItem = ({ uid, item, removeProduct, unit }) => {
   return (
-    <ShoppingCartItemContainer>
+    <ShoppingCartItemContainer {...cartAnimation}>
       <div className="details">
         <div className="name">{item.name}</div>
         {!!unit && (
@@ -97,7 +103,7 @@ const ShoppingCartItem = ({ uid, item, removeProduct, unit }) => {
   );
 };
 
-const ShoppingCartSection = styled.div`
+const ShoppingCartSection = styled(motion.div)`
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
@@ -112,7 +118,7 @@ const ShoppingCart = ({ t, theme, items, note, removeProduct }) => {
     <ShoppingCartContainer>
       <Title>{t("shopping_cart_heading")}</Title>
       {theme && (
-        <ShoppingCartSection>
+        <ShoppingCartSection {...cartAnimation}>
           <SectionTitle label={t("design")} />
           <div className="value">{theme}</div>
         </ShoppingCartSection>
@@ -131,7 +137,7 @@ const ShoppingCart = ({ t, theme, items, note, removeProduct }) => {
         </ShoppingCartSection>
       )}
       {!!note && (
-        <ShoppingCartSection>
+        <ShoppingCartSection {...cartAnimation}>
           <SectionTitle label={t("note")} />
           <Note>{note}</Note>
         </ShoppingCartSection>

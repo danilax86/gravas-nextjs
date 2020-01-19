@@ -22,6 +22,7 @@
     "emotion-theming": "^10.0.19",
     "eslint-plugin-react": "^7.17.0",
     "express": "^4.17.1",
+    "framer-motion": "^1.7.0",
     "graphql": "^14.5.8",
     "graphql-tag": "^2.10.1",
     "i18n": "^0.8.4",
@@ -52,9 +53,11 @@
     "build": "next build",
     "start": "node server.js",
     "hasura": "cd hasura && docker-compose up -d",
-    "migrate": "cd hasura-gravas && hasura migrate apply"
+    "migrate": "cd hasura-gravas && hasura migrate apply",
+    "cypress:open": "cypress open"
   },
   "devDependencies": {
+    "cypress": "^3.8.2",
     "eslint": "^6.8.0"
   }
 }

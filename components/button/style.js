@@ -9,6 +9,8 @@ const ButtonStyle = styled.button`
   padding: 0 1rem;
   font-size: ${props => props.theme.fonts.body};
   font-weight: ${props => props.theme.fontWeight.light};
+  display: flex;
+  align-items: center;
 
   ${p =>
     p.disabled &&

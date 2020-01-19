@@ -1,5 +1,7 @@
 import Document, { Head, Main, NextScript } from "next/document";
 
+//Pages in Next.js skip the definition of the surrounding document's markup
+//extends the Document clas
 export default class MyDocument extends Document {
   render() {
     return (

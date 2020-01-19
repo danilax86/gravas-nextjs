@@ -17,7 +17,7 @@ const SelectProduct = ({ t, type, handleSelectProduct }) => {
       {!loading ? (
         data.products.map(product => (
           <Tile
-            title={t(product.name)}
+            name={t(product.name)}
             value={product}
             imagePath={`/static/gift-card/products/${product.name}.jpg`}
             handleSelect={() => handleSelectProduct(product)}

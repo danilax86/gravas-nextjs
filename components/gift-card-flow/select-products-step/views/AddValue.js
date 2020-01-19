@@ -17,9 +17,11 @@ const AddValue = ({ handleAddProduct, t }) => {
     }
   });
 
-  const handleChangeValue = newValue => {
-    if (newValue >= 1) {
-      setValue(newValue);
+  const modifyValueBy = modifier => {
+    if (Number.isNaN(value)) {
+      modifier > 0 ? setValue(modifier) : setValue(0);
+    } else {
+      setValue(value + modifier > 0 ? value + modifier : 0);
     }
   };
 
@@ -29,7 +31,7 @@ const AddValue = ({ handleAddProduct, t }) => {
         <InputCard>
           <img className="image" src={`/static/gift-card/products/value.jpg`} />
           <h3>{t("enter_value")}</h3>
-          <IconButton size="small" onClick={() => handleChangeValue(value - 5)}>
+          <IconButton size="small" onClick={() => handleChangeValue(-5)}>
             <Remove />
           </IconButton>
           <TextField
@@ -39,9 +41,9 @@ const AddValue = ({ handleAddProduct, t }) => {
             type="number"
             value={value}
             min={1}
-            onChange={e => handleChangeValue(Number(e.target.value))}
+            onChange={e => setValue(Number(e.target.value))}
           />
-          <IconButton size="small" onClick={() => handleChangeValue(value + 5)}>
+          <IconButton size="small" onClick={() => modifyValueBy(5)}>
             <Add />
           </IconButton>
         </InputCard>
