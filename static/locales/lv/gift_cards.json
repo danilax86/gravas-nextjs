@@ -42,7 +42,7 @@
   "enter_note": "Ievadi virsrakstu",
   "note": "Dāvanu kartes virsraksts",
   "persons": "personas",
-  "thank_you_for_purchase": "Dāvanu karte veiksmīga iegādāta",
+  "thank_you_for_purchase": "Paldies par pirkumu!",
   "gift_card_sent_to_email": "Dāvanu karte ir nosūtīta uz {{ contactEmail }}",
   "back_to_home": "Aizvērt",
   "receipt": "Apstiprinājums"

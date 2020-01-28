@@ -14,7 +14,9 @@ import GET_PRODUCT_TYPES from "./queries/getProductTypes";
 
 import { withTranslation } from "../../../i18n";
 
+// default view
 const SELECT_PRODUCT_TYPE = "select_product_type";
+
 const SELECT_PRODUCT = "select_product";
 const ADD_PRODUCT = "add_product";
 const ADD_VALUE = "add_value";
@@ -28,7 +30,7 @@ const ChipContainer = styled.div`
   }
 `;
 
-const SelectProductsStep = ({ t, title, addProduct, handle }) => {
+const SelectProductsStep = ({ t, title, addProduct }) => {
   const [selectedType, setSelectedType] = useState();
   const [product, setProduct] = useState(null);
 

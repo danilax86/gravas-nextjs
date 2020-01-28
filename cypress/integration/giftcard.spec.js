@@ -6,15 +6,17 @@ describe("Buy giftcard for value", function() {
 
     cy.visit(`${rootUrl}/davanu-karte`);
 
-    cy.contains("Iegādāties").click();
+    cy.get("button")
+      .contains("Buy")
+      .click();
 
     cy.contains("conifer").click();
 
-    cy.contains("Uz priekšu").click();
+    cy.contains("Next").click();
 
     cy.wait(2000);
 
-    cy.contains("Vērtība").click();
+    cy.contains("Value").click();
 
     cy.get('input[name="value"]')
       .focus()
@@ -23,19 +25,19 @@ describe("Buy giftcard for value", function() {
 
     cy.contains("add").click();
 
-    cy.contains("Uz priekšu").click();
+    cy.contains("Next").click();
 
     cy.get('textarea[name="note"]')
       .focus()
       .type("For my beloved mommy");
 
-    cy.contains("Uz priekšu").click();
+    cy.contains("Next").click();
 
     cy.get('input[name="email"]')
       .focus()
       .type(email);
 
-    cy.contains("Uz priekšu").click();
+    cy.contains("Next").click();
 
     cy.wait(2000);
 
@@ -54,7 +56,7 @@ describe("Buy giftcard for value", function() {
         .focus()
         .type("123");
 
-      cy.contains("Maksāt").click();
+      cy.contains("Pay").click();
 
       cy.wait(3000);
 

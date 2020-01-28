@@ -39,6 +39,7 @@ const apollo = new ApolloClient({
   // Purchase endpoint
   server.post("/charge", async (req, res) => {
     try {
+      // total is taken from shopping cart items in Checkout step
       const { items, total, theme, note, locale } = req.body;
       const products = await getProductsById(items.map(item => item.id));
       const verifiedTotal = calculateTotal(products, items);

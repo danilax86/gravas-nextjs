@@ -107,7 +107,6 @@
       {
         "icon": "sauna",
         "title": "sauna_rental",
-        "forPerson": "sauna_rental_max_number_of_persons",
         "totalPrice": "45 €"
       },
       {
@@ -163,8 +162,8 @@
     "amenities": [
       {
         "icon": "bed",
-        "label": "amenity_bed_label",
-        "caption": "amenity_bed_caption"
+        "label": "amenity_bed_sheets_label",
+        "caption": "amenity_bed_sheets_caption"
       },
       {
         "icon": "kitchen",
@@ -231,7 +230,6 @@
       {
         "icon": "sauna",
         "title": "sauna_rental",
-        "forPerson": "sauna_rental_max_number_of_persons",
         "totalPrice": "45 €"
       },
 
@@ -450,7 +448,6 @@
       {
         "icon": "sauna",
         "title": "sauna_rental",
-        "forPerson": "sauna_rental_max_number_of_persons",
         "totalPrice": "45 €"
       }
     ]
@@ -557,15 +554,14 @@
     "allPrices": [
       {
         "icon": "key",
-        "title": "viesu_majas_ire",
+        "title": "wedding_venue_place",
         "forPerson": "wedding_venue_max_number_of_persons",
-        "totalPrice": "450 €"
+        "totalPrice": "530 €"
       },
       {
-        "icon": "bed",
-        "title": "accommodation",
-        "forPerson": "accommodation_per_person",
-        "totalPrice": "15 €"
+        "icon": "canopy",
+        "title": "wedding_venue_extra",
+        "totalPrice": "50 €"
       },
       {
         "icon": "bonfire",

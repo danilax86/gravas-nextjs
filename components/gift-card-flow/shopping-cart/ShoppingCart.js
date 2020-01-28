@@ -84,7 +84,7 @@ const ShoppingCartItemContainer = styled(motion.div)`
     color: ${p => p.theme.colors.primary};
   }
 `;
-const ShoppingCartItem = ({ uid, item, removeProduct, unit }) => {
+const ShoppingCartItem = ({ item, removeProduct, unit }) => {
   return (
     <ShoppingCartItemContainer {...cartAnimation}>
       <div className="details">
@@ -117,6 +117,7 @@ const ShoppingCart = ({ t, theme, items, note, removeProduct }) => {
   return (
     <ShoppingCartContainer>
       <Title>{t("shopping_cart_heading")}</Title>
+
       {theme && (
         <ShoppingCartSection {...cartAnimation}>
           <SectionTitle label={t("design")} />

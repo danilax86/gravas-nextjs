@@ -53,6 +53,11 @@
         "caption": "amenity_massage_caption"
       },
       {
+        "icon": "",
+        "label": "amenity_singing_bowls",
+        "caption": "amenity_singing_bowls_caption"
+      },
+      {
         "icon": "steaming-whisk",
         "label": "amenity_whisks_label",
         "caption": "amenity_whisks_caption"
@@ -103,7 +108,7 @@
         "title": "zalu_pirts_rituals",
         "forPerson": "herbal_sauna_per_person",
         "additionalPerson": "herbal_sauna_additional_person",
-        "totalPrice": "63 €"
+        "totalPrice": "66 €"
       },
       {
         "icon": "spa",
@@ -115,8 +120,13 @@
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "additionalPerson": "accommodation_additional_person",
         "totalPrice": "36 €"
+      },
+      {
+        "icon": "breakfest",
+        "title": "breakfest",
+        "forPerson": "breakfest_per_person",
+        "totalPrice": "4 €"
       },
       {
         "icon": "massage",
@@ -177,6 +187,11 @@
         "caption": "amenity_massage_caption"
       },
       {
+        "icon": "",
+        "label": "amenity_singing_bowls",
+        "caption": "amenity_singing_bowls_caption"
+      },
+      {
         "icon": "steaming-whisk",
         "label": "amenity_whisks_label",
         "caption": "amenity_whisks_caption"
@@ -231,14 +246,19 @@
         "icon": "couple-ritual",
         "title": "milestibas_pirts_rituals",
         "forPerson": "couple_sauna_per_person",
-        "totalPrice": "66 €"
+        "totalPrice": "138 €"
       },
       {
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "additionalPerson": "accommodation_additional_person",
         "totalPrice": "36 €"
+      },
+      {
+        "icon": "breakfest",
+        "title": "breakfest",
+        "forPerson": "breakfest_per_person",
+        "totalPrice": "4 €"
       },
       {
         "icon": "massage",
@@ -297,6 +317,11 @@
         "icon": "bamboo-massage",
         "label": "amenity_massage_label",
         "caption": "amenity_massage_caption"
+      },
+      {
+        "icon": "",
+        "label": "amenity_singing_bowls",
+        "caption": "amenity_singing_bowls_caption"
       },
       {
         "icon": "steaming-whisk",
@@ -359,8 +384,13 @@
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "additionalPerson": "accommodation_additional_person",
         "totalPrice": "36 €"
+      },
+      {
+        "icon": "breakfest",
+        "title": "breakfest",
+        "forPerson": "breakfest_per_person",
+        "totalPrice": "4 €"
       },
       {
         "icon": "massage",
@@ -473,17 +503,27 @@
     "allPrices": [
       {
         "icon": "couple-ritual",
-        "title": "milestibas_pirts_rituals",
+        "title": "ligavas_pirts_rituals",
         "forPerson": "bride_sauna_per_person",
-        "additionalPerson": "bride_sauna_additional_person",
-        "totalPrice": "70 €"
+        "totalPrice": "69 €"
+      },
+      {
+        "icon": "",
+        "title": "bride_sisters",
+        "forPerson": "bride_sisters_per_person",
+        "totalPrice": "10 €"
       },
       {
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "additionalPerson": "accommodation_additional_person",
         "totalPrice": "36 €"
+      },
+      {
+        "icon": "breakfest",
+        "title": "breakfest",
+        "forPerson": "breakfest_per_person",
+        "totalPrice": "4 €"
       },
       {
         "icon": "massage",
@@ -598,15 +638,25 @@
         "icon": "rose-ritual",
         "title": "rozu_pirts_rituals",
         "forPerson": "rose_sauna_per_person",
-        "additionalPerson": "rose_sauna_additional_person",
-        "totalPrice": "66 €"
+        "totalPrice": "69 €"
+      },
+      {
+        "icon": "rose-ritual",
+        "title": "rose_sauna_ritual_individual",
+        "forPerson": "rose_sauna_individual_caption",
+        "totalPrice": "73 €"
       },
       {
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "additionalPerson": "accommodation_additional_person",
         "totalPrice": "36 €"
+      },
+      {
+        "icon": "breakfest",
+        "title": "breakfest",
+        "forPerson": "breakfest_per_person",
+        "totalPrice": "4 €"
       },
       {
         "icon": "massage",
@@ -674,7 +724,7 @@
       {
         "icon": "feet-bath",
         "label": "amenity_feet_bath_label",
-        "caption": "amenity_feet_bath_caption"
+        "caption": "amenity_amber_feet_bath_caption"
       },
       {
         "icon": "pool",
@@ -684,7 +734,7 @@
       {
         "icon": "mask",
         "label": "amenity_honey_label",
-        "caption": "amenity_honey_caption"
+        "caption": "amenity_amber_caption"
       },
       {
         "icon": "bathrobe",
@@ -716,15 +766,25 @@
         "icon": "amber",
         "title": "dzintara_pirts_rituals",
         "forPerson": "amber_sauna_per_person",
-        "additionalPerson": "amber_sauna_additional_person",
-        "totalPrice": "66 €"
+        "totalPrice": "69 €"
+      },
+      {
+        "icon": "amber",
+        "title": "amber_sauna_ritual_individual",
+        "forPerson": "amber_sauna_ritual_individual_caption",
+        "totalPrice": "73 €"
       },
       {
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "additionalPerson": "accommodation_additional_person",
         "totalPrice": "36 €"
+      },
+      {
+        "icon": "breakfest",
+        "title": "breakfest",
+        "forPerson": "breakfest_per_person",
+        "totalPrice": "4 €"
       },
       {
         "icon": "massage",
@@ -780,6 +840,11 @@
         "caption": "amenity_scrub_caption"
       },
       {
+        "icon": "steaming-whisk",
+        "label": "amenity_whisks_girls_spa",
+        "caption": "amenity_whisks_girls_spa_caption"
+      },
+      {
         "icon": "pool",
         "label": "amenity_pool_label",
         "caption": "amenity_pool_caption"
@@ -814,15 +879,25 @@
         "icon": "facial-treatment",
         "title": "meitenu_spa_vakars",
         "forPerson": "girls_spa_per_person",
-        "additionalPerson": "girls_spa_additional_person",
         "totalPrice": "45 €"
+      },
+      {
+        "icon": "facial-treatment",
+        "title": "girls_spa_additional_person",
+        "forPerson": "girls_spa_additional_person_caption",
+        "totalPrice": "5 €"
       },
       {
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "additionalPerson": "accommodation_additional_person",
         "totalPrice": "36 €"
+      },
+      {
+        "icon": "breakfest",
+        "title": "breakfest",
+        "forPerson": "breakfest_per_person",
+        "totalPrice": "4 €"
       },
       {
         "icon": "massage",
