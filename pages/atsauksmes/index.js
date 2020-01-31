@@ -11,7 +11,7 @@ const ReviewsPage = () => {
       description="Gravas pirts rituāla atsauksmes no klientiem."
     >
       <PageHeaderImage
-        imgsrc="/static/guesthouse/viesu-majas-atsauksmes.jpg"
+        imgsrc="/static/guesthouse/viesu-majas-atsauksmes.jpg?webp?lqip"
         alt="Gravas pļavā pie rata. Kāzu fotostūra idejas"
       />
       <PageHeader

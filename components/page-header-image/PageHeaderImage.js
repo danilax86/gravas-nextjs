@@ -11,7 +11,15 @@ export default ({ imgsrc, alt, title, caption }) => {
 
   return (
     <Header>
-      <HeaderImage className="image" src={imgsrc} alt={alt} />
+      <picture>
+        <HeaderImage
+          className="image"
+          src={imgsrc}
+          alt={alt}
+          type="image/webp"
+        />
+      </picture>
+
       {title && <h1>{title}</h1>}
       {caption && <p>{caption}</p>}
       {hasGallery && (

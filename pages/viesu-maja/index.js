@@ -13,7 +13,7 @@ const GuestHouseServicesPage = ({ t }) => (
     description={t(GeneralDescription.metaDescription)}
   >
     <PageHeaderImage
-      imgsrc="/static/guesthouse/skats-uz-viesu-maju.jpg"
+      imgsrc="/static/guesthouse/skats-uz-viesu-maju.jpg?webp?lqip"
       alt={t(GeneralDescription.alt)}
     />
     <PageHeader

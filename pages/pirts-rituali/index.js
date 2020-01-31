@@ -14,7 +14,7 @@ const SaunaRitualsPage = ({ t }) => {
       description={t(SaunaRitualsHeaderText.metaDescription)}
     >
       <PageHeaderImage
-        imgsrc="/static/sauna-rituals/pirts-rituali-kopa.jpg"
+        imgsrc="/static/sauna-rituals/pirts-rituali-kopa.jpg?webp?lqip"
         alt={t(SaunaRitualsHeaderText.alt)}
       />
       <PageHeader

@@ -14,7 +14,7 @@ const SportActivitiesPage = ({ t }) => {
       description={t(SportActivitiesHeaderText.metaDescription)}
     >
       <PageHeaderImage
-        imgsrc="/static/sport-activities/laukums.jpg"
+        imgsrc="/static/sport-activities/laukums.jpg?webp?lqip"
         alt={t(SportActivitiesHeaderText.alt)}
       />
       <PageHeader

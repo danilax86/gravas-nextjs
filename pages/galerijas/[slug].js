@@ -47,7 +47,9 @@ const Gallery = () => {
             <span className="icon-back" onClick={handleBack}></span>
             {transitions.map(({ item, props, key }) => (
               <animated.div key={key} style={{ ...props }}>
-                <img src={item.path} alt={item.title} />
+                <picture>
+                  <img src={item.path} alt={item.title} type="image/webp" />
+                </picture>
               </animated.div>
             ))}
             <span className="icon-next" onClick={handleNext}></span>
@@ -56,14 +58,17 @@ const Gallery = () => {
         </Main>
         <Aside>
           {gallery.images.map((image, index) => (
-            <img
-              onClick={e => {
-                setIndex(index);
-              }}
-              key={index}
-              src={image.path}
-              alt={image.title}
-            />
+            <picture>
+              <img
+                onClick={e => {
+                  setIndex(index);
+                }}
+                key={index}
+                src={image.path}
+                alt={image.title}
+                type="image/webp"
+              />
+            </picture>
           ))}
         </Aside>
       </Images>

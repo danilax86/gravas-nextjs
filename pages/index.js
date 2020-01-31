@@ -14,7 +14,7 @@ const Index = () => {
     >
       <ExploreCards cards={cards} />
       <PageHeaderImage
-        imgsrc="/static/home/gravas-atputa-bauska.jpg"
+        imgsrc="/static/home/gravas-atputa-bauska.jpg?webp?lqip"
         alt="Atpūta laukos pie dabas Bauska"
       />
       <IndexDescriptions descriptions={serviceDescriptions} />

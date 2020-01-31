@@ -1,17 +1,18 @@
-{   
-    "title": "sauna_employee_title",
-    "img": "/static/biruta.jpg",
-    "alt": "pirtniece Biruta Gravas",
-    "name": "Biruta",
-    "description": "sauna_user_description",
-    "contact": "contact_btn",
-    "educations": [
-        {
-            "year": "2011",
-            "event": "biruta_opened_gravas"
-        },
-        {
-            "year": "2010",
-            "event": "biruta_graduated"
-        }]
-}  
+{
+  "title": "sauna_employee_title",
+  "img": "/static/biruta.jpg?webp?lqip",
+  "alt": "pirtniece Biruta Gravas",
+  "name": "Biruta",
+  "description": "sauna_user_description",
+  "contact": "contact_btn",
+  "educations": [
+    {
+      "year": "2011",
+      "event": "biruta_opened_gravas"
+    },
+    {
+      "year": "2010",
+      "event": "biruta_graduated"
+    }
+  ]
+}
