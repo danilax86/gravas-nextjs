@@ -45,5 +45,10 @@
   "thank_you_for_purchase": "Paldies par pirkumu!",
   "gift_card_sent_to_email": "Dāvanu karte ir nosūtīta uz {{ contactEmail }}",
   "back_to_home": "Aizvērt",
-  "receipt": "Apstiprinājums"
+  "receipt": "Apstiprinājums",
+  "gift_card_how_to_purchase": "Soļi kā iegādāties Gravas dāvanu karti:",
+  "form_gift_card": "Izvēlieties dāvanu kartes noformējumu: summa vai pakalpojumi konkrētam personu skaitam.",
+  "payment_confirmation": "Sazinaties ar mums, lai varam Jums nosūtīt rēķinu.",
+  "receive_gift_card_in_mail": "Pēc rēķina apmaksas, saņemiet dāvanu karti elektroniskā veidā.",
+  "write_email": "Sūtīt epastu"
 }

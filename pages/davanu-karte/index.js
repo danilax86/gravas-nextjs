@@ -5,6 +5,10 @@ import { withTranslation, Link } from "../../i18n";
 import giftCardHeader from "../../static/data/index-page/giftcardHeader";
 import Button from "../../components/button/button";
 import Router from "next/router";
+import {
+  ListItems,
+  ButtonItems
+} from "../../components/gift-card-flow/main/style";
 
 const Index = ({ t }) => (
   <Layout
@@ -20,12 +24,32 @@ const Index = ({ t }) => (
         title={t(giftCardHeader.title)}
         description={t(giftCardHeader.description)}
       />
-      <Button
+      <h3>{t("gift_card_how_to_purchase")}</h3>
+      <ListItems>
+        <li>{t("form_gift_card")}</li>
+        <li>{t("payment_confirmation")}</li>
+        <li>{t("receive_gift_card_in_mail")}</li>
+      </ListItems>
+      <ButtonItems>
+        <a
+          className="buttonLink"
+          target="_blank"
+          rel="noopener"
+          href={`mailto:`}
+        >
+          <Button
+            type="button"
+            buttonStyle="btn--primary--outline"
+            children={t("write_email")}
+          ></Button>
+        </a>
+      </ButtonItems>
+      {/*<Button
         onClick={() => Router.push("/davanu-karte/iegadaties")}
         type="button"
         buttonStyle="btn--primary--solid"
         children={t(giftCardHeader.buyGiftCard)}
-      />
+      /> */}
     </div>
   </Layout>
 );
