@@ -38,52 +38,52 @@
     ],
     "amenities": [
       {
-        "icon": "sauna",
+        "icon": "sauna.svg",
         "label": "amenity_sauna_label",
         "caption": "amenity_sauna_caption"
       },
       {
-        "icon": "scrub",
+        "icon": "scrub.svg",
         "label": "amenity_scrub_label",
         "caption": "amenity_scrub_caption"
       },
       {
-        "icon": "bamboo-massage",
+        "icon": "bamboo-massage.svg",
         "label": "amenity_massage_label",
         "caption": "amenity_massage_caption"
       },
       {
-        "icon": "",
+        "icon": "singing-bowl.svg",
         "label": "amenity_singing_bowls",
         "caption": "amenity_singing_bowls_caption"
       },
       {
-        "icon": "steaming-whisk",
+        "icon": "steaming-whisk.svg",
         "label": "amenity_whisks_label",
         "caption": "amenity_whisks_caption"
       },
       {
-        "icon": "feet-bath",
+        "icon": "feet-bath.svg",
         "label": "amenity_feet_bath_label",
         "caption": "amenity_feet_bath_caption"
       },
       {
-        "icon": "pool",
+        "icon": "pool.svg",
         "label": "amenity_pool_label",
         "caption": "amenity_pool_caption"
       },
       {
-        "icon": "mask",
+        "icon": "mask.svg",
         "label": "amenity_honey_label",
         "caption": "amenity_honey_caption"
       },
       {
-        "icon": "bathrobe",
+        "icon": "bathrobe.svg",
         "label": "amenity_accessories_label",
         "caption": "amenity_accessories_caption"
       },
       {
-        "icon": "tea",
+        "icon": "tea.svg",
         "label": "amenity_snacks_label",
         "caption": "amenity_snacks_caption"
       }
@@ -123,7 +123,7 @@
         "totalPrice": "36 €"
       },
       {
-        "icon": "breakfest",
+        "icon": "cutlery",
         "title": "breakfest",
         "forPerson": "breakfest_per_person",
         "totalPrice": "4 €"
@@ -172,57 +172,57 @@
     ],
     "amenities": [
       {
-        "icon": "sauna",
+        "icon": "sauna.svg",
         "label": "amenity_sauna_label",
         "caption": "amenity_sauna_caption"
       },
       {
-        "icon": "scrub",
+        "icon": "scrub.svg",
         "label": "amenity_scrub_label",
         "caption": "amenity_scrub_caption"
       },
       {
-        "icon": "bamboo-massage",
+        "icon": "bamboo-massage.svg",
         "label": "amenity_massage_label",
         "caption": "amenity_massage_caption"
       },
       {
-        "icon": "",
+        "icon": "singing-bowl.svg",
         "label": "amenity_singing_bowls",
         "caption": "amenity_singing_bowls_caption"
       },
       {
-        "icon": "steaming-whisk",
+        "icon": "steaming-whisk.svg",
         "label": "amenity_whisks_label",
         "caption": "amenity_whisks_caption"
       },
       {
-        "icon": "couple-ritual",
+        "icon": "couple-ritual.svg",
         "label": "couple_sauna_amenity_love_whisks_label",
         "caption": "couple_sauna_amenity_love_whisks_caption"
       },
       {
-        "icon": "feet-bath",
+        "icon": "feet-bath.svg",
         "label": "amenity_feet_bath_label",
         "caption": "amenity_feet_bath_caption"
       },
       {
-        "icon": "pool",
+        "icon": "pool.svg",
         "label": "amenity_pool_label",
         "caption": "amenity_pool_caption"
       },
       {
-        "icon": "mask",
+        "icon": "mask.svg",
         "label": "amenity_honey_label",
         "caption": "amenity_honey_caption"
       },
       {
-        "icon": "bathrobe",
+        "icon": "bathrobe.svg",
         "label": "amenity_accessories_label",
         "caption": "amenity_accessories_caption"
       },
       {
-        "icon": "tea",
+        "icon": "tea.svg",
         "label": "amenity_snacks_label",
         "caption": "amenity_snacks_caption"
       }
@@ -255,7 +255,7 @@
         "totalPrice": "36 €"
       },
       {
-        "icon": "breakfest",
+        "icon": "cutlery",
         "title": "breakfest",
         "forPerson": "breakfest_per_person",
         "totalPrice": "4 €"
@@ -304,57 +304,57 @@
     ],
     "amenities": [
       {
-        "icon": "sauna",
+        "icon": "sauna.svg",
         "label": "amenity_sauna_label",
         "caption": "amenity_sauna_caption"
       },
       {
-        "icon": "scrub",
+        "icon": "scrub.svg",
         "label": "amenity_scrub_label",
         "caption": "amenity_scrub_caption"
       },
       {
-        "icon": "bamboo-massage",
+        "icon": "bamboo-massage.svg",
         "label": "amenity_massage_label",
         "caption": "amenity_massage_caption"
       },
       {
-        "icon": "",
+        "icon": "singing-bowl.svg",
         "label": "amenity_singing_bowls",
         "caption": "amenity_singing_bowls_caption"
       },
       {
-        "icon": "steaming-whisk",
+        "icon": "steaming-whisk.svg",
         "label": "amenity_whisks_label",
         "caption": "amenity_whisks_caption"
       },
       {
-        "icon": "feet-bath",
+        "icon": "feet-bath.svg",
         "label": "amenity_feet_bath_label",
         "caption": "amenity_feet_bath_caption"
       },
       {
-        "icon": "pool",
+        "icon": "pool.svg",
         "label": "amenity_pool_label",
         "caption": "amenity_pool_caption"
       },
       {
-        "icon": "mask",
+        "icon": "mask.svg",
         "label": "amenity_honey_label",
         "caption": "amenity_honey_caption"
       },
       {
-        "icon": "bathrobe",
+        "icon": "bathrobe.svg",
         "label": "amenity_accessories_label",
         "caption": "amenity_accessories_caption"
       },
       {
-        "icon": "tea",
+        "icon": "tea.svg",
         "label": "amenity_snacks_label",
         "caption": "amenity_snacks_caption"
       },
       {
-        "icon": "cakra",
+        "icon": "cakra.svg",
         "label": "birthday_sauna_amenity_chakra_label",
         "caption": "birthday_sauna_amenity_chakra_caption"
       }
@@ -387,7 +387,7 @@
         "totalPrice": "36 €"
       },
       {
-        "icon": "breakfest",
+        "icon": "cutlery",
         "title": "breakfest",
         "forPerson": "breakfest_per_person",
         "totalPrice": "4 €"
@@ -436,52 +436,52 @@
     ],
     "amenities": [
       {
-        "icon": "sauna",
+        "icon": "sauna.svg",
         "label": "amenity_sauna_label",
         "caption": "amenity_sauna_caption"
       },
       {
-        "icon": "scrub",
+        "icon": "scrub.svg",
         "label": "amenity_scrub_label",
         "caption": "amenity_scrub_caption"
       },
       {
-        "icon": "steaming-whisk",
+        "icon": "steaming-whisk.svg",
         "label": "amenity_whisks_label",
         "caption": "amenity_whisks_caption"
       },
       {
-        "icon": "traditions",
+        "icon": "traditions.svg",
         "label": "amenity_traditions_label",
         "caption": "amenity_traditions_caption"
       },
       {
-        "icon": "feet-bath",
+        "icon": "feet-bath.svg",
         "label": "amenity_feet_bath_label",
         "caption": "amenity_feet_bath_caption"
       },
       {
-        "icon": "pool",
+        "icon": "pool.svg",
         "label": "amenity_pool_label",
         "caption": "amenity_pool_caption"
       },
       {
-        "icon": "mask",
+        "icon": "mask.svg",
         "label": "amenity_honey_label",
         "caption": "amenity_honey_caption"
       },
       {
-        "icon": "bathrobe",
+        "icon": "bathrobe.svg",
         "label": "amenity_accessories_label",
         "caption": "amenity_accessories_caption"
       },
       {
-        "icon": "tea",
+        "icon": "tea.svg",
         "label": "amenity_snacks_label",
         "caption": "amenity_snacks_caption"
       },
       {
-        "icon": "bride",
+        "icon": "bride.svg",
         "label": "amenity_bride_sisters_label",
         "caption": "amenity_bride_sisters_caption"
       }
@@ -520,7 +520,7 @@
         "totalPrice": "36 €"
       },
       {
-        "icon": "breakfest",
+        "icon": "cutlery",
         "title": "breakfest",
         "forPerson": "breakfest_per_person",
         "totalPrice": "4 €"
@@ -569,52 +569,52 @@
     ],
     "amenities": [
       {
-        "icon": "sauna",
+        "icon": "sauna.svg",
         "label": "amenity_sauna_label",
         "caption": "amenity_sauna_caption"
       },
       {
-        "icon": "scrub",
+        "icon": "scrub.svg",
         "label": "amenity_scrub_label",
         "caption": "amenity_scrub_caption"
       },
       {
-        "icon": "steaming-whisk",
+        "icon": "steaming-whisk.svg",
         "label": "amenity_whisks_label",
         "caption": "amenity_whisks_caption"
       },
       {
-        "icon": "bamboo-massage",
+        "icon": "bamboo-massage.svg",
         "label": "amenity_massage_label",
         "caption": "amenity_massage_caption"
       },
       {
-        "icon": "feet-bath",
+        "icon": "feet-bath.svg",
         "label": "amenity_feet_bath_label",
         "caption": "amenity_feet_bath_caption"
       },
       {
-        "icon": "pool",
+        "icon": "pool.svg",
         "label": "amenity_pool_label",
         "caption": "amenity_pool_caption"
       },
       {
-        "icon": "rose-ritual",
+        "icon": "rose-ritual.svg",
         "label": "rose_sauna_amenity_petals_label",
         "caption": "rose_sauna_amenity_petals_caption"
       },
       {
-        "icon": "mask",
+        "icon": "mask.svg",
         "label": "amenity_honey_label",
         "caption": "amenity_honey_caption"
       },
       {
-        "icon": "bathrobe",
+        "icon": "bathrobe.svg",
         "label": "amenity_accessories_label",
         "caption": "amenity_accessories_caption"
       },
       {
-        "icon": "tea",
+        "icon": "tea.svg",
         "label": "amenity_snacks_label",
         "caption": "amenity_snacks_caption"
       }
@@ -653,7 +653,7 @@
         "totalPrice": "36 €"
       },
       {
-        "icon": "breakfest",
+        "icon": "cutlery",
         "title": "breakfest",
         "forPerson": "breakfest_per_person",
         "totalPrice": "4 €"
@@ -702,47 +702,47 @@
     ],
     "amenities": [
       {
-        "icon": "sauna",
+        "icon": "sauna.svg",
         "label": "amenity_sauna_label",
         "caption": "amenity_sauna_caption"
       },
       {
-        "icon": "scrub",
+        "icon": "scrub.svg",
         "label": "amenity_scrub_label",
         "caption": "amenity_scrub_caption"
       },
       {
-        "icon": "steaming-whisk",
+        "icon": "steaming-whisk.svg",
         "label": "amenity_whisks_label",
         "caption": "amenity_whisks_caption"
       },
       {
-        "icon": "bamboo-massage",
+        "icon": "bamboo-massage.svg",
         "label": "amenity_massage_label",
         "caption": "amenity_massage_caption"
       },
       {
-        "icon": "feet-bath",
+        "icon": "feet-bath.svg",
         "label": "amenity_feet_bath_label",
         "caption": "amenity_amber_feet_bath_caption"
       },
       {
-        "icon": "pool",
+        "icon": "pool.svg",
         "label": "amenity_pool_label",
         "caption": "amenity_pool_caption"
       },
       {
-        "icon": "mask",
+        "icon": "mask.svg",
         "label": "amenity_honey_label",
         "caption": "amenity_amber_caption"
       },
       {
-        "icon": "bathrobe",
+        "icon": "bathrobe.svg",
         "label": "amenity_accessories_label",
         "caption": "amenity_accessories_caption"
       },
       {
-        "icon": "tea",
+        "icon": "tea.svg",
         "label": "amenity_snacks_label",
         "caption": "amenity_snacks_caption"
       }
@@ -781,7 +781,7 @@
         "totalPrice": "36 €"
       },
       {
-        "icon": "breakfest",
+        "icon": "cutlery",
         "title": "breakfest",
         "forPerson": "breakfest_per_person",
         "totalPrice": "4 €"
@@ -830,32 +830,32 @@
     ],
     "amenities": [
       {
-        "icon": "sauna",
+        "icon": "sauna.svg",
         "label": "amenity_sauna_label",
         "caption": "amenity_sauna_caption"
       },
       {
-        "icon": "scrub",
+        "icon": "scrub.svg",
         "label": "amenity_scrub_label",
         "caption": "amenity_scrub_caption"
       },
       {
-        "icon": "steaming-whisk",
+        "icon": "steaming-whisk.svg",
         "label": "amenity_whisks_girls_spa",
         "caption": "amenity_whisks_girls_spa_caption"
       },
       {
-        "icon": "pool",
+        "icon": "pool.svg",
         "label": "amenity_pool_label",
         "caption": "amenity_pool_caption"
       },
       {
-        "icon": "hat",
+        "icon": "hat.svg",
         "label": "amenity_accessories_label",
         "caption": "girl_spa_amenity_accessories_caption"
       },
       {
-        "icon": "tea",
+        "icon": "tea.svg",
         "label": "girl_spa_amenity_snacks_label",
         "caption": "girl_spa_amenity_snacks_caption"
       }
@@ -894,7 +894,7 @@
         "totalPrice": "36 €"
       },
       {
-        "icon": "breakfest",
+        "icon": "cutlery",
         "title": "breakfest",
         "forPerson": "breakfest_per_person",
         "totalPrice": "4 €"

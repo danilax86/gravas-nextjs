@@ -37,47 +37,47 @@
     ],
     "amenities": [
       {
-        "icon": "key",
+        "icon": "key.svg",
         "label": "amenity_space_label",
         "caption": "amenity_space_caption"
       },
       {
-        "icon": "bed",
+        "icon": "bed.svg",
         "label": "amenity_bed_label",
         "caption": "amenity_bed_caption"
       },
       {
-        "icon": "kitchen",
+        "icon": "kitchen.svg",
         "label": "amenity_kitchen_label",
         "caption": "amenity_kitchen_caption"
       },
       {
-        "icon": "shower",
+        "icon": "shower.svg",
         "label": "amenity_shower_label",
         "caption": "amenity_shower_caption"
       },
       {
-        "icon": "cutlery",
+        "icon": "cutlery.svg",
         "label": "amenity_cutlery_label",
         "caption": "amenity_cutlery_caption"
       },
       {
-        "icon": "chairs",
+        "icon": "chairs.svg",
         "label": "amenity_dinning_facilities_label",
         "caption": "amenity_dinning_facilities_caption"
       },
       {
-        "icon": "volleyball",
+        "icon": "volleyball.svg",
         "label": "amenity_volleyball_label",
         "caption": "amenity_volleyball_caption"
       },
       {
-        "icon": "basketball",
+        "icon": "basketball.svg",
         "label": "amenity_basketball_label",
         "caption": "amenity_basketball_caption"
       },
       {
-        "icon": "parking",
+        "icon": "parking.svg",
         "label": "amenity_parking_label",
         "caption": "amenity_sparking_caption"
       }
@@ -161,37 +161,37 @@
     ],
     "amenities": [
       {
-        "icon": "bed",
+        "icon": "bed.svg",
         "label": "amenity_bed_sheets_label",
         "caption": "amenity_bed_sheets_caption"
       },
       {
-        "icon": "kitchen",
+        "icon": "kitchen.svg",
         "label": "amenity_kitchen_label",
         "caption": "amenity_kitchen_caption"
       },
       {
-        "icon": "shower",
+        "icon": "shower.svg",
         "label": "amenity_shower_label",
         "caption": "amenity_shower_caption"
       },
       {
-        "icon": "cutlery",
+        "icon": "cutlery.svg",
         "label": "amenity_cutlery_label",
         "caption": "amenity_cutlery_caption"
       },
       {
-        "icon": "volleyball",
+        "icon": "volleyball.svg",
         "label": "amenity_volleyball_label",
         "caption": "amenity_volleyball_caption"
       },
       {
-        "icon": "basketball",
+        "icon": "basketball.svg",
         "label": "amenity_basketball_label",
         "caption": "amenity_basketball_caption"
       },
       {
-        "icon": "parking",
+        "icon": "parking.svg",
         "label": "amenity_parking_label",
         "caption": "amenity_sparking_caption"
       }
@@ -279,32 +279,32 @@
     ],
     "amenities": [
       {
-        "icon": "sauna",
+        "icon": "sauna.svg",
         "label": "amenity_sauna_label",
         "caption": "amenity_sauna_caption"
       },
       {
-        "icon": "chairs",
+        "icon": "chairs.svg",
         "label": "amenity_dinning_facilities_label",
         "caption": "amenity_dinning_facilities_caption"
       },
       {
-        "icon": "shower",
+        "icon": "shower.svg",
         "label": "amenity_shower_label",
         "caption": "amenity_shower_caption"
       },
       {
-        "icon": "volleyball",
+        "icon": "volleyball.svg",
         "label": "amenity_volleyball_label",
         "caption": "amenity_volleyball_caption"
       },
       {
-        "icon": "basketball",
+        "icon": "basketball.svg",
         "label": "amenity_basketball_label",
         "caption": "amenity_basketball_caption"
       },
       {
-        "icon": "parking",
+        "icon": "parking.svg",
         "label": "amenity_parking_label",
         "caption": "amenity_sparking_caption"
       }
@@ -381,32 +381,32 @@
     ],
     "amenities": [
       {
-        "icon": "canopy",
+        "icon": "canopy.svg",
         "label": "amenity_canopy_label",
         "caption": "amenity_canopy_caption"
       },
       {
-        "icon": "chairs",
+        "icon": "chairs.svg",
         "label": "amenity_dinning_facilities_label",
         "caption": "amenity_dinning_facilities_caption"
       },
       {
-        "icon": "kitchen",
+        "icon": "kitchen.svg",
         "label": "amenity_kitchen_label",
         "caption": "amenity_kitchen_caption"
       },
       {
-        "icon": "volleyball",
+        "icon": "volleyball.svg",
         "label": "amenity_volleyball_label",
         "caption": "amenity_volleyball_caption"
       },
       {
-        "icon": "basketball",
+        "icon": "basketball.svg",
         "label": "amenity_basketball_label",
         "caption": "amenity_basketball_caption"
       },
       {
-        "icon": "parking",
+        "icon": "parking.svg",
         "label": "amenity_parking_label",
         "caption": "amenity_sparking_caption"
       }
@@ -491,47 +491,47 @@
     ],
     "amenities": [
       {
-        "icon": "key",
+        "icon": "key.svg",
         "label": "amenity_space_label",
         "caption": "amenity_space_caption"
       },
       {
-        "icon": "bed",
+        "icon": "bed.svg",
         "label": "amenity_bed_label",
         "caption": "wedding_venue_amenity_bed_caption"
       },
       {
-        "icon": "kitchen",
+        "icon": "kitchen.svg",
         "label": "amenity_kitchen_label",
         "caption": "amenity_kitchen_caption"
       },
       {
-        "icon": "shower",
+        "icon": "shower.svg",
         "label": "amenity_shower_label",
         "caption": "amenity_shower_caption"
       },
       {
-        "icon": "chairs",
+        "icon": "chairs.svg",
         "label": "amenity_dinning_facilities_label",
         "caption": "amenity_dinning_facilities_caption"
       },
       {
-        "icon": "canopy",
+        "icon": "canopy.svg",
         "label": "amenity_canopy_label",
         "caption": "amenity_canopy_caption"
       },
       {
-        "icon": "volleyball",
+        "icon": "volleyball.svg",
         "label": "amenity_volleyball_label",
         "caption": "amenity_volleyball_caption"
       },
       {
-        "icon": "basketball",
+        "icon": "basketball.svg",
         "label": "amenity_basketball_label",
         "caption": "amenity_basketball_caption"
       },
       {
-        "icon": "parking",
+        "icon": "parking.svg",
         "label": "amenity_parking_label",
         "caption": "amenity_sparking_caption"
       }

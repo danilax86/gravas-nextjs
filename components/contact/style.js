@@ -12,6 +12,10 @@ export const Item = styled.div`
   padding-left: 2rem;
   margin: 1rem 0;
 
+  svg {
+    margin-right: 1rem;
+  }
+
   @media ${breakpoints.md} {
     padding-left: 0;
   }
@@ -22,9 +26,11 @@ export const Item = styled.div`
 
   .buttonLink {
     margin-left: auto;
-
+    text-decoration: none;
     button {
       width: 150px;
+      display: flex;
+      justify-content: center;
 
       @media ${breakpoints.md} {
         margin-left: 0;

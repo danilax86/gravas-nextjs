@@ -5,6 +5,8 @@ import { BottomItems, ModalItems } from "./style";
 import Modal from "react-responsive-modal";
 import howToReserveDetails from "../../static/data/contacts/howToReserve";
 import { withTranslation } from "../../i18n";
+import PhoneIcon from "../../components/icons/Phone";
+import EmailIcon from "../../components/icons/Mail";
 
 const Footer = ({ t }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -31,13 +33,13 @@ const Footer = ({ t }) => {
           <h2>{t(howToReserveDetails.title)}</h2>
           <p>{t(howToReserveDetails.text)}</p>
           <div className="contacts">
-            <span className="icon-phone"></span>
+            <PhoneIcon style={{ color: "#1E514B", fontSize: "36px" }} />
             <a className="contact-detail" href="tel:+37126647133">
               +371 26647133
             </a>
           </div>
           <div className="contacts">
-            <span className="icon-mail"></span>
+            <EmailIcon style={{ color: "#1E514B", fontSize: "36px" }} />
             <a className="contact-detail" href="email:info@gravas.lv">
               info@gravas.lv
             </a>

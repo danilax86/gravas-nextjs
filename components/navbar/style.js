@@ -36,7 +36,7 @@ export const Nav = styled.nav`
 
     .gravas-logo {
       width: auto;
-      height: calc(64px - 2rem);
+      height: calc(64px - 2.2rem);
       box-sizing: content-box;
       cursor: pointer;
       margin-right: auto;
