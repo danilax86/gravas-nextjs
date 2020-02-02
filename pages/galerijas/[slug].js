@@ -25,7 +25,7 @@ const Gallery = () => {
 
   const handleNext = () => {
     const nextImageIndex = index + 1;
-    setIndex(nextImageIndex === gallery.images.length - 1 ? 0 : nextImageIndex);
+    setIndex(nextImageIndex > gallery.images.length - 1 ? 0 : nextImageIndex);
   };
 
   const handleBack = () => {
