@@ -1,5 +1,7 @@
 require("dotenv").config();
 const next = require("next");
+const { join } = require("path");
+const { parse } = require("url");
 const express = require("express");
 const fetch = require("cross-fetch/polyfill").fetch;
 const ApolloClient = require("apollo-boost").ApolloClient;
@@ -111,7 +113,17 @@ const apollo = new ApolloClient({
     });
   });
 
-  server.get("*", (req, res) => handle(req, res));
+  server.get("*", (req, res) => {
+    const parsedUrl = parse(req.url, true);
+    const { pathname } = parsedUrl;
+    if (pathname === "/service-worker.js") {
+      const filePath = join(__dirname, ".next", pathname);
+
+      app.serveStatic(req, res, filePath);
+    } else {
+      handle(req, res);
+    }
+  });
 
   await server.listen(port);
   console.log(`Listening on port ${port}`);
