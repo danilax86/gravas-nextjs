@@ -15,13 +15,12 @@ const Layout = styled.div`
   }
 `;
 
-export const Icon = styled.div`
+export const IconItems = styled.div`
   height: 3rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  span {
-    font-size: 28px;
+  svg {
     cursor: pointer;
   }
 
@@ -52,9 +51,8 @@ export const Image = styled.div`
   position: relative;
   margin: 0 auto;
 
-  span {
+  svg {
     font-size: 2rem;
-    padding: 1rem;
     cursor: pointer;
     position: absolute;
     top: calc(50% - 2rem);
@@ -85,7 +83,7 @@ export const Image = styled.div`
       width: 100%;
       height: 100%;
     }
-    span {
+    svg {
       display: none;
     }
   }

@@ -32,7 +32,7 @@ export const ModalItems = styled.div`
     padding-top: 2rem;
     display: flex;
     align-items: center;
-    span {
+    svg {
       padding-right: 1rem;
     }
 

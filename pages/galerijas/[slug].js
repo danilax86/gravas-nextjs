@@ -2,8 +2,11 @@ import { useRouter } from "next/router";
 import galleries from "../../static/data/galleries";
 import { withTranslation, Link } from "../../i18n";
 import { useState } from "react";
-import Layout, { Images, Main, Aside, Icon, Image } from "./style";
+import Layout, { Images, Main, Aside, IconItems, Image } from "./style";
 import { useTransition, animated } from "react-spring";
+import CloseIcon from "../../components/icons/Close";
+import NextIcon from "../../components/icons/Next";
+import BackIcon from "../../components/icons/Back";
 
 const Gallery = () => {
   const router = useRouter();
@@ -38,13 +41,16 @@ const Gallery = () => {
 
   return (
     <Layout>
-      <Icon onClick={router.back}>
-        <span className="icon-close"></span>
-      </Icon>
+      <IconItems>
+        <CloseIcon onClick={router.back} style={{ fontSize: "28px" }} />
+      </IconItems>
       <Images>
         <Main>
           <Image>
-            <span className="icon-back" onClick={handleBack}></span>
+            <BackIcon
+              onClick={handleBack}
+              style={{ color: "#000000", fontSize: "28px" }}
+            />
             {transitions.map(({ item, props, key }) => (
               <animated.div key={key} style={{ ...props }}>
                 <picture>
@@ -52,7 +58,10 @@ const Gallery = () => {
                 </picture>
               </animated.div>
             ))}
-            <span className="icon-next" onClick={handleNext}></span>
+            <NextIcon
+              onClick={handleNext}
+              style={{ color: "#000000", fontSize: "28px" }}
+            />
           </Image>
           <p>{gallery.images[index].title}</p>
         </Main>

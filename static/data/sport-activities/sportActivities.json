@@ -140,7 +140,7 @@
     ],
     "amenities": [
       {
-        "icon": "targeting-1",
+        "icon": "archery",
         "label": "amenity_archery_target_label",
         "caption": "amenity_archery_target_caption"
       },

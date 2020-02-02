@@ -3,14 +3,19 @@ import ActiveLink from "../ActiveLink";
 import NavItem from "../nav-item/NavItem";
 import { Nav, NavItems, Divider, SelectItems } from "./style";
 import { withTranslation, i18n } from "../../i18n";
+import MenuIcon from "../../components/icons/Menu";
+import CloseIcon from "../../components/icons/Close";
+import ArrowDownIcon from "../../components/icons/ArrowDown";
 
 const LanguageSelect = () => {
   return (
     <SelectItems>
-      <span className="icon-arrow-down icon"></span>
+      <ArrowDownIcon className="icon" style={{ fontSize: "24px" }} />
       <select
         defaultValue={i18n.language}
-        onChange={event => i18n.changeLanguage(event.target.value)}
+        onChange={event => {
+          i18n.changeLanguage(event.target.value);
+        }}
       >
         <option value="lv">Latviešu</option>
         <option value="ru">Pусский</option>
@@ -31,15 +36,15 @@ const Navbar = ({ t }) => {
         </ActiveLink>
 
         {isMenuOpen ? (
-          <span
+          <CloseIcon
             onClick={() => setIsMenuOpen(false)}
             className="icon-close icon"
-          ></span>
+          />
         ) : (
-          <span
+          <MenuIcon
             onClick={() => setIsMenuOpen(true)}
             className="icon-menu icon"
-          ></span>
+          />
         )}
       </div>
       <NavItems isOpen={isMenuOpen}>
