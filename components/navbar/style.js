@@ -4,11 +4,15 @@ const breakpoints = {
   md: "(max-width: 1240px)",
   sm: "(max-width: 720px)"
 };
-
 export const Nav = styled.nav`
   display: flex;
+  width: 100%;
   height: 64px;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 2;
 
   .logo-items {
     display: flex;
