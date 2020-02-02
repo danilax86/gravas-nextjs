@@ -150,7 +150,12 @@ const storeGiftCard = async (data, products) => {
       name: contacts.name || null,
       phone: contacts.phone || null,
       note: note || " ",
-      stripe_ref: token,
+      payment: {
+        data: {
+          reference: token,
+          amount: 100
+        }
+      },
       valid_until: moment()
         .add(8, "months")
         .format("YYYY-MM-DD HH:mm:ss"),
