@@ -11,6 +11,7 @@ const nextI18next = require("./i18n");
 const moment = require("moment");
 const createPDF = require("./gift-card-pdf");
 const sendGiftCardEmail = require("./mails/gift-card");
+const redirects = require("./redirects");
 
 const STORE_GIFT_CARD = require("./graphql/mutations/storeGiftCard");
 const GET_PRODUCTS_BY_ID = require("./graphql/queries/getProductsById");
@@ -104,6 +105,12 @@ const apollo = new ApolloClient({
     }
   });
 
+  redirects.forEach(({ from, to, type = 301, method = "get" }) => {
+    server[method](from, (req, res) => {
+      res.redirect(type, to);
+    });
+  });
+
   server.get("*", (req, res) => handle(req, res));
 
   await server.listen(port);
@@ -190,29 +197,3 @@ const handleGiftCardPaymentSuccess = async (giftCard, stripeResponse) => {
 
   return giftCard;
 };
-
-const redirects = [
-  { from: "/pirts-rituals.php", to: "/pirts-rituali" },
-  { from: "/lauku-spa.php", to: "/pirts-rituali/meitenu-spa-vakars" },
-  { from: "/naktsmitnes.php", to: "/viesu-maja" },
-  { from: "aktivaatputa.php", to: "/aktiva-atputa" },
-  { from: "/cenas.php", to: "/pirts-rituali" },
-  { from: "atsauksmes.php", to: "/atsauksmes" },
-  { from: "/kontakti.php", to: "/kontakti" },
-
-  { from: "/ru/pirts-rituals.php", to: "/ru/pirts-rituali" },
-  { from: "/ru/lauku-spa.php", to: "/ru/pirts-rituali/meitenu-spa-vakars" },
-  { from: "/ru/naktsmitnes.php", to: "/ru/viesu-maja" },
-  { from: "/ru/aktivaatputa.php", to: "/ru/aktiva-atputa" },
-  { from: "/ru/cenas.php", to: "/ru/pirts-rituali" },
-  { from: "/ru/atsauksmes.php", to: "/ru/atsauksmes" },
-  { from: "/ru/kontakti.php", to: "/ru/kontakti" },
-
-  { from: "/en/pirts-rituals.php", to: "/en/pirts-rituali" },
-  { from: "/en/lauku-spa.php", to: "en/pirts-rituali/meitenu-spa-vakars" },
-  { from: "/en/naktsmitnes.php", to: "/en/viesu-maja" },
-  { from: "/en/aktivaatputa.php", to: "/en/aktiva-atputa" },
-  { from: "/en/cenas.php", to: "/en/pirts-rituali" },
-  { from: "/en/atsauksmes.php", to: "/en/atsauksmes" },
-  { from: "/en/kontakti.php", to: "/en/kontakti" }
-];
