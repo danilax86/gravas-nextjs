@@ -8,7 +8,7 @@ import Router from "next/router";
 import {
   ListItems,
   ButtonItems
-} from "../../components/gift-card-flow/main/style";
+} from "../../components/gift-card-flow/main/style.js";
 
 const Index = ({ t }) => (
   <Layout
