@@ -9,7 +9,6 @@ import styled from "@emotion/styled";
 // Style
 import Layout from "../../components/Layout";
 import Container from "../../components/gift-card-flow/container/style";
-import Main from "../../components/gift-card-flow/main/style";
 import Content from "../../components/gift-card-flow/content/style";
 import Stepper from "../../components/gift-card-flow/stepper/Stepper";
 
@@ -137,7 +136,7 @@ const PurchasePage = ({ t }) => {
   return (
     <Layout>
       <Container>
-        <Main>
+        <main>
           <Headline>{t("gift_card_flow_title")}</Headline>
           <Content>
             <Stepper steps={STEPS} activeStep={activeStep} />
@@ -203,7 +202,7 @@ const PurchasePage = ({ t }) => {
               <ReceiptStep title={t("receipt")} contactEmail={contacts.email} />
             )}
           </Content>
-        </Main>
+        </main>
         <ShoppingCart
           theme={theme}
           items={shoppingCartItems}
