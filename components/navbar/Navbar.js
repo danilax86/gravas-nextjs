@@ -7,12 +7,14 @@ import MenuIcon from "../../components/icons/Menu";
 import CloseIcon from "../../components/icons/Close";
 import ArrowDownIcon from "../../components/icons/ArrowDown";
 
+const FALLBACK_LANGUAGE = "en";
+
 const LanguageSelect = () => {
   return (
     <SelectItems>
       <ArrowDownIcon className="icon" style={{ fontSize: "24px" }} />
       <select
-        defaultValue={i18n.language}
+        defaultValue={i18n.language || FALLBACK_LANGUAGE}
         onChange={event => {
           i18n.changeLanguage(event.target.value);
         }}
