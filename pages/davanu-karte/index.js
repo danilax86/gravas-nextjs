@@ -24,7 +24,7 @@ const Index = ({ t }) => (
         title={t(giftCardHeader.title)}
         description={t(giftCardHeader.description)}
       />
-      <h3>{t("gift_card_how_to_purchase")}</h3>
+      {/*<h3>{t("gift_card_how_to_purchase")}</h3>*/}
       {/*<ListItems>
         <li>{t("form_gift_card")}</li>
         <li>{t("payment_confirmation")}</li>
