@@ -1,19 +1,16 @@
 import gql from "graphql-tag";
 
 const GET_SERVICES_BY_TYPE = gql`
-  query Type($id: ID!) {
-    type(id: $id) {
+  query Products($id: Int!) {
+    products(where: { type_id: { _eq: $id } }) {
       id
-      products {
-        id
+      name
+      price_type {
         name
-        price_type {
-          name
-        }
-        prices {
-          persons
-          amount
-        }
+      }
+      prices {
+        persons
+        amount
       }
     }
   }

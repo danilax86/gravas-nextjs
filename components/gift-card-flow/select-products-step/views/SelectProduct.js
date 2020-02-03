@@ -15,7 +15,7 @@ const SelectProduct = ({ t, type, handleSelectProduct }) => {
   return (
     <Grid>
       {!loading ? (
-        data.type.products.map(product => (
+        data.products.map(product => (
           <Tile
             name={t(product.name)}
             value={product}
