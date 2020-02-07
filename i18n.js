@@ -3,7 +3,7 @@ const NextI18Next = require("next-i18next").default;
 const localeSubpathVariations = {
   none: {},
   foreign: {
-    lv: "lv",
+    en: "en",
     ru: "ru"
   },
   all: {
@@ -14,7 +14,7 @@ const localeSubpathVariations = {
 };
 
 module.exports = new NextI18Next({
-  defaultLanguage: "en",
-  otherLanguages: ["lv", "ru"],
+  defaultLanguage: "lv",
+  otherLanguages: ["en", "ru"],
   localeSubpaths: localeSubpathVariations.foreign
 });

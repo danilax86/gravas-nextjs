@@ -7,7 +7,7 @@ import MenuIcon from "../../components/icons/Menu";
 import CloseIcon from "../../components/icons/Close";
 import ArrowDownIcon from "../../components/icons/ArrowDown";
 
-const FALLBACK_LANGUAGE = "en";
+const FALLBACK_LANGUAGE = "lv";
 
 const LanguageSelect = () => {
   return (

@@ -24,14 +24,14 @@ const Index = ({ t }) => (
         title={t(giftCardHeader.title)}
         description={t(giftCardHeader.description)}
       />
-      {/*<h3>{t("gift_card_how_to_purchase")}</h3>*/}
-      {/*<ListItems>
+      <h3>{t("gift_card_how_to_purchase")}</h3>
+      <ListItems>
         <li>{t("form_gift_card")}</li>
         <li>{t("payment_confirmation")}</li>
         <li>{t("receive_gift_card_in_mail")}</li>
-      </ListItems>*/}
+      </ListItems>
       <ButtonItems>
-        {/*<a
+        <a
           className="buttonLink"
           target="_blank"
           rel="noopener"
@@ -42,13 +42,13 @@ const Index = ({ t }) => (
             buttonStyle="btn--primary--outline"
             children={t("write_email")}
           ></Button>
-        </a>*/}
-        <Button
+        </a>
+        {/*<Button
           onClick={() => Router.push("/davanu-karte/iegadaties")}
           type="button"
           buttonStyle="btn--primary--solid"
           children={t(giftCardHeader.buyGiftCard)}
-        />
+        />*/}
       </ButtonItems>
     </div>
   </Layout>
