@@ -112,6 +112,7 @@ const apollo = new ApolloClient({
     res.sendFile(__dirname + "/static/sitemap-gravas.xml");
   });
 
+  // Robots.txt file
   server.get("/robots.txt", (req, res) => {
     res.sendFile(__dirname + "/static/robots.txt");
   });
