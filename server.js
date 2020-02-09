@@ -107,6 +107,15 @@ const apollo = new ApolloClient({
     }
   });
 
+  //Sitemap file
+  server.get("/sitemap-gravas.xml", (req, res) => {
+    res.sendFile(__dirname + "/static/sitemap-gravas.xml");
+  });
+
+  server.get("/robots.txt", (req, res) => {
+    res.sendFile(__dirname + "/static/robots.txt");
+  });
+
   redirects.forEach(({ from, to, type = 301, method = "get" }) => {
     server[method](from, (req, res) => {
       res.redirect(type, to);
