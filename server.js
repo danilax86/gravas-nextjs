@@ -126,7 +126,6 @@ const apollo = new ApolloClient({
   });
 
   await server.listen(port);
-  console.log(`Listening on port ${port}`);
 })();
 
 const getProductsById = async productIds => {

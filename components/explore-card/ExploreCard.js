@@ -3,7 +3,7 @@ import Card from "./style";
 import { withTranslation } from "../../i18n";
 
 const ExploreCard = ({ label, img, href, t }) => (
-  <Link href={href}>
+  <Link href={href} prefetch={false}>
     <Card>
       <picture>
         <img src={img} alt={t(label)} type="image/webp" />

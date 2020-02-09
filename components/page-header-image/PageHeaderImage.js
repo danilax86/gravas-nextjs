@@ -23,7 +23,7 @@ export default ({ imgsrc, alt, title, caption }) => {
       {title && <h1>{title}</h1>}
       {caption && <p>{caption}</p>}
       {hasGallery && (
-        <Link href={`/galerijas/${slug}`}>
+        <Link href={`/galerijas/${slug}`} prefetch={false}>
           <a className="gallery-link">Galerija</a>
         </Link>
       )}

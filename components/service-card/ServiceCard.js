@@ -5,7 +5,7 @@ import { withTranslation } from "../../i18n";
 const ServiceCard = ({ id, title, priceTitle, priceFrom, img, t, prefix }) => {
   const slug = title.replace(/\_/g, "-");
   return (
-    <Link href={`/${prefix}/${slug}`}>
+    <Link href={`/${prefix}/${slug}`} prefetch={false}>
       <Card>
         <picture>
           <img src={img} alt={t(title)} type="image/webp" />
