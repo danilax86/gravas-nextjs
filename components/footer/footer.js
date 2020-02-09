@@ -7,6 +7,7 @@ import howToReserveDetails from "../../static/data/contacts/howToReserve";
 import { withTranslation } from "../../i18n";
 import PhoneIcon from "../../components/icons/Phone";
 import EmailIcon from "../../components/icons/Mail";
+import GiftCardIcon from "../../components/icons/GiftCard";
 
 const Footer = ({ t }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -18,8 +19,9 @@ const Footer = ({ t }) => {
         type="button"
         buttonStyle="btn--secondary--solid"
         buttonColor="btn--primary"
-        icon="gift-card"
-      />
+      >
+        <GiftCardIcon style={{ fontSize: "28px" }}></GiftCardIcon>
+      </Button>
 
       <Button
         onClick={() => setIsModalOpen(true)}

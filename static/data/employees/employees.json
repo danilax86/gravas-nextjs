@@ -14,5 +14,7 @@
       "year": "2010",
       "event": "biruta_graduated"
     }
-  ]
+  ],
+  "getInTouchTitle": "get_in_touch_title",
+  "getInTouchDescription": "get_in_touch_description"
 }

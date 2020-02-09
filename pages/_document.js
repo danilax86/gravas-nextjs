@@ -60,37 +60,6 @@ export default class MyDocument extends Document {
                 margin: 0;
                 padding: 0;
               }
-              @font-face {
-                font-family: "icomoon";
-                src: url("../static/icon-fonts/icomoon.eot?4vgzqc");
-                src: url("../static/icon-fonts/icomoon.eot?4vgzqc#iefix")
-                    format("embedded-opentype"),
-                  url("../static/icon-fonts/icomoon.ttf?4vgzqc")
-                    format("truetype"),
-                  url("../static/icon-fonts/icomoon.woff?4vgzqc") format("woff"),
-                  url("../static/icon-fonts/icomoon.svg?4vgzqc#icomoon")
-                    format("svg");
-                font-weight: normal;
-                font-style: normal;
-                font-display: block;
-              }
-
-              [class^="icon-"],
-              [class*=" icon-"] {
-                /* use !important to prevent issues with browser extensions that change fonts */
-                font-family: "icomoon" !important;
-                speak: none;
-                font-style: normal;
-                font-weight: normal;
-                font-variant: normal;
-                text-transform: none;
-                line-height: 1;
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-              }
-              .icon-gift-card:before {
-                content: "\e918";
-              }
             `}
           </style>
           <script src="https://js.stripe.com/v3/"></script>
