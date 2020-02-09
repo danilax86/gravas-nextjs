@@ -502,13 +502,13 @@
     ],
     "allPrices": [
       {
-        "icon": "couple-ritual",
+        "icon": "bride",
         "title": "ligavas_pirts_rituals",
         "forPerson": "bride_sauna_per_person",
         "totalPrice": "69 €"
       },
       {
-        "icon": "",
+        "icon": "girls-night",
         "title": "bride_sisters",
         "forPerson": "bride_sisters_per_person",
         "totalPrice": "10 €"
