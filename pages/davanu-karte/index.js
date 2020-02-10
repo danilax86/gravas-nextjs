@@ -16,7 +16,7 @@ const Index = ({ t }) => (
     description={t(giftCardHeader.metaDescription)}
   >
     <PageHeaderImage
-      imgsrc="/static/home/gravas-atputa-bauska.jpg"
+      imgsrc="/static/gift-card/gift-card-header.jpg?webp?lqip"
       alt={t(giftCardHeader.alt)}
     />
     <div>
@@ -24,7 +24,7 @@ const Index = ({ t }) => (
         title={t(giftCardHeader.title)}
         description={t(giftCardHeader.description)}
       />
-      <h3>{t("gift_card_how_to_purchase")}</h3>
+      <h4>{t("gift_card_how_to_purchase")}</h4>
       <ListItems>
         <li>{t("form_gift_card")}</li>
         <li>{t("payment_confirmation")}</li>

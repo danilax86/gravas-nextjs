@@ -27,6 +27,7 @@ export const IconItems = styled.div`
   @media ${breakpoints.md} {
     position: relative;
     z-index: 2;
+    margin: 0.5rem 1rem;
   }
 `;
 
@@ -78,7 +79,7 @@ export const Image = styled.div`
     border-radius: 0.25rem;
   }
   @media ${breakpoints.md} {
-    width: 100%;
+    width: 100vw;
     img {
       width: 100%;
       height: 100%;
@@ -103,6 +104,7 @@ export const Aside = styled.aside`
   grid-gap: 1rem;
   margin: auto 0;
   justify-content: center;
+  cursor: pointer;
   img {
     width: 100%;
     height: 100%;
