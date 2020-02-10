@@ -1,19 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
   <loc>http://www.gravas.lv/</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/index.php</loc>
@@ -50,6 +82,18 @@
 </url>
 <url>
   <loc>http://www.gravas.lv/en/naktsmitnes.php</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/lauku-spa.php"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/lauku-spa.php"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/lauku-spa.php"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/aktivaatputa.php</loc>
@@ -89,185 +133,903 @@
 </url>
 <url>
   <loc>http://www.gravas.lv/pirts-rituali</loc>
-</url>
-<url>
-  <loc>http://www.gravas.lv/pirts-rituali</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali"/>
+  
 </url>
 <url>
   <loc>http://www.gravas.lv/pirts-rituali/zalu-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/zalu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/zalu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/zalu-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/pirts-rituali/milestibas-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/milestibas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/milestibas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/milestibas-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/pirts-rituali/dzimsanas-dienas-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/dzimsanas-dienas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/dzimsanas-dienas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/dzimsanas-dienas-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/pirts-rituali/ligavas-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/ligavas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/ligavas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/ligavas-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/pirts-rituali/rozu-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/rozu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/rozu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/rozu-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/pirts-rituali/dzintara-pirts-rituals</loc>
+   <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/dzintara-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/dzintara-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/dzintara-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/pirts-rituali/meitenu-spa-vakars</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/meitenu-spa-vakars"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/meitenu-spa-vakars"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/meitenu-spa-vakars"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/pirts-rituali</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/pirts-rituali/zalu-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/zalu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/zalu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/zalu-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/pirts-rituali/milestibas-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/milestibas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/milestibas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/milestibas-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/pirts-rituali/dzimsanas-dienas-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/dzimsanas-dienas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/dzimsanas-dienas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/dzimsanas-dienas-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/pirts-rituali/ligavas-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/ligavas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/ligavas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/ligavas-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/pirts-rituali/rozu-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/rozu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/rozu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/rozu-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/pirts-rituali/dzintara-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/dzintara-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/dzintara-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/dzintara-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/pirts-rituali/meitenu-spa-vakars</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/meitenu-spa-vakars"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/meitenu-spa-vakars"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/meitenu-spa-vakars"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/pirts-rituali</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/pirts-rituali/zalu-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/zalu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/zalu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/zalu-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/pirts-rituali/milestibas-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/milestibas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/milestibas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/milestibas-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/pirts-rituali/dzimsanas-dienas-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/dzimsanas-dienas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/dzimsanas-dienas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/dzimsanas-dienas-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/pirts-rituali/ligavas-pirts-rituals</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/ligavas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/ligavas-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/ligavas-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/pirts-rituali/rozu-pirts-rituals</loc>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/rozu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/rozu-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/rozu-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/pirts-rituali/dzintara-pirts-rituals</loc>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/dzintara-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/dzintara-pirts-rituals"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/dzintara-pirts-rituals"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/pirts-rituali/meitenu-spa-vakars</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali/meitenu-spa-vakars"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali/meitenu-spa-vakars"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali/meitenu-spa-vakars"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/viesu-maja</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/viesu-maja/viesu-majas-ire</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/viesu-majas-ire"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/viesu-majas-ire"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/viesu-majas-ire"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/viesu-maja/naktsmitnes</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/naktsmitnes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/naktsmitnes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/naktsmitnes"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/viesu-maja/iekurinata-pirts</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/iekurinata-pirts"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/iekurinata-pirts"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/iekurinata-pirts"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/viesu-maja/kazu-svinibu-vieta</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/kazu-svinibu-vieta"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/kazu-svinibu-vieta"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/kazu-svinibu-vieta"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/viesu-maja</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/viesu-maja/viesu-majas-ire</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/viesu-majas-ire"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/viesu-majas-ire"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/viesu-majas-ire"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/viesu-maja/naktsmitnes</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/naktsmitnes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/naktsmitnes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/naktsmitnes"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/viesu-maja/iekurinata-pirts</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/iekurinata-pirts"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/iekurinata-pirts"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/iekurinata-pirts"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/viesu-maja/kazu-svinibu-vieta</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/kazu-svinibu-vieta"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/kazu-svinibu-vieta"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/kazu-svinibu-vieta"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/viesu-maja</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/viesu-maja/viesu-majas-ire</loc>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/viesu-majas-ire"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/viesu-majas-ire"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/viesu-majas-ire"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/viesu-maja/naktsmitnes</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/naktsmitnes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/naktsmitnes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/naktsmitnes"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/viesu-maja/iekurinata-pirts</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/iekurinata-pirts"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/iekurinata-pirts"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/iekurinata-pirts"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/viesu-maja/kazu-svinibu-vieta</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/viesu-maja/kazu-svinibu-vieta"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/viesu-maja/kazu-svinibu-vieta"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/viesu-maja/kazu-svinibu-vieta"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/aktiva-atputa</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/aktiva-atputa/peintbols</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa/peintbols"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa/peintbols"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa/peintbols"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/aktiva-atputa/loka-sausana</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa/loka-sausana"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa/loka-sausana"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa/loka-sausana"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/aktiva-atputa/skolenu-ekskursijas</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa/skolenu-ekskursijas"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa/skolenu-ekskursijas"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa/skolenu-ekskursijas"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/aktiva-atputa</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/aktiva-atputa/peintbols</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa/peintbols"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa/peintbols"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa/peintbols"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/aktiva-atputa/loka-sausana</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa/loka-sausana"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa/loka-sausana"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa/loka-sausana"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/aktiva-atputa/skolenu-ekskursijas</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa/skolenu-ekskursijas"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa/skolenu-ekskursijas"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa/skolenu-ekskursijas"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/aktiva-atputa</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/aktiva-atputa/peintbols</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa/peintbols"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa/peintbols"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa/peintbols"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/aktiva-atputa/loka-sausana</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa/loka-sausana"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa/loka-sausana"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa/loka-sausana"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/aktiva-atputa/skolenu-ekskursijas</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/aktiva-atputa/skolenu-ekskursijas"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/aktiva-atputa/skolenu-ekskursijas"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/aktiva-atputa/skolenu-ekskursijas"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/davanu-karte</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/davanu-karte"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/davanu-karte"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/davanu-karte"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/davanu-karte</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/davanu-karte"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/davanu-karte"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/davanu-karte"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/davanu-karte</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/davanu-karte"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/davanu-karte"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/davanu-karte"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/atsauksmes</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/atsauksmes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/atsauksmes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/atsauksmes"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/atsauksmes</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/atsauksmes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/atsauksmes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/atsauksmes"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/atsauksmes</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/atsauksmes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/atsauksmes"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/atsauksmes"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/kontakti</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/kontakti"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="htthttp://www.gravas.lv/ru/kontakti"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="htthttp://www.gravas.lv/en/kontakti"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/en/kontakti</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/kontakti"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="htthttp://www.gravas.lv/ru/kontakti"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="htthttp://www.gravas.lv/en/kontakti"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/ru/kontakti</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/kontakti"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="htthttp://www.gravas.lv/ru/kontakti"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="htthttp://www.gravas.lv/en/kontakti"/>
 </url>
 </urlset>
