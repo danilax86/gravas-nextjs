@@ -2,7 +2,7 @@ module.exports = [
   { from: "/pirts-rituals.php", to: "/pirts-rituali" },
   { from: "/lauku-spa.php", to: "/pirts-rituali/meitenu-spa-vakars" },
   { from: "/naktsmitnes.php", to: "/viesu-maja" },
-  { from: "aktivaatputa.php", to: "/aktiva-atputa" },
+  { from: "/aktivaatputa.php", to: "/aktiva-atputa" },
   { from: "/cenas.php", to: "/pirts-rituali" },
   { from: "/atsauksmes.php", to: "/atsauksmes" },
   { from: "/kontakti.php", to: "/kontakti" },
