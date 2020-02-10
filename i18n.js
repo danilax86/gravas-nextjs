@@ -4,12 +4,14 @@ const localeSubpathVariations = {
   none: {},
   foreign: {},
   all: {
-    lv: "lv"
+    lv: "lv",
+    en: "en",
+    ru: "ru"
   }
 };
 
 module.exports = new NextI18Next({
   defaultLanguage: "lv",
-  otherLanguages: [],
+  otherLanguages: ["en", "ru"],
   localeSubpaths: localeSubpathVariations.foreign
 });
