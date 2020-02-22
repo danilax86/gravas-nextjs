@@ -322,7 +322,7 @@
         "path": "/static/guesthouse/skats-uz-viesu-maju.jpg?webp?lqip"
       },
       {
-        "title": "Viesumājas ieeja",
+        "title": "Viesu mājas ieeja",
         "path": "/static/guesthouse/viesumajas-ieeja-bauska.jpg?webp?lqip"
       },
       {
@@ -346,8 +346,8 @@
         "path": "/static/guesthouse/svinibu-vieta.jpg?webp?lqip"
       },
       {
-        "title": "Volejbola laukums",
-        "path": "/static/guesthouse/sporta-laukumi.jpg?webp?lqip"
+        "title": "Basketbola laukums",
+        "path": "/static/sport-activities/sporta-laukumi.jpg?webp?lqip"
       }
     ]
   },
@@ -363,7 +363,7 @@
         "path": "/static/guesthouse/skats-uz-viesu-maju.jpg?webp?lqip"
       },
       {
-        "title": "Viesumājas ieeja",
+        "title": "Viesu mājas ieeja",
         "path": "/static/guesthouse/viesumajas-ieeja-bauska.jpg?webp?lqip"
       },
       {
@@ -418,6 +418,43 @@
       {
         "title": "Pirts māja naktī",
         "path": "/static/guesthouse/pirts-maja-bauska.jpg?webp?lqip"
+      }
+    ]
+  },
+  {
+    "slug": "svinibu-vieta",
+    "images": [
+      {
+        "title": "Viesu māja atrodas 6 km no Bauskas",
+        "path": "/static/guesthouse/viesu-maja-jumis.jpg?webp?lqip"
+      },
+      {
+        "title": "Skats uz viesu māju un teritoriju",
+        "path": "/static/guesthouse/skats-uz-viesu-maju.jpg?webp?lqip"
+      },
+      {
+        "title": "Viesu mājas ieeja",
+        "path": "/static/guesthouse/viesumajas-ieeja-bauska.jpg?webp?lqip"
+      },
+      {
+        "title": "Telpa svinībām",
+        "path": "/static/guesthouse/viesumajas-svinibu-telpa.jpg?webp?lqip"
+      },
+      {
+        "title": "Viesu mājas koridors",
+        "path": "/static/guesthouse/viesumajas-koridors.jpg?webp?lqip"
+      },
+      {
+        "title": "Koplietojamās telpas",
+        "path": "/static/guesthouse/virtuve.jpg?webp?lqip"
+      },
+      {
+        "title": "Nojumes telpa svinībām",
+        "path": "/static/guesthouse/svinibu-vieta.jpg?webp?lqip"
+      },
+      {
+        "title": "Basketbola laukums",
+        "path": "/static/sport-activities/sporta-laukumi.jpg?webp?lqip"
       }
     ]
   },
