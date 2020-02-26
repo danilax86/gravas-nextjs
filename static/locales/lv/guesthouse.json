@@ -36,7 +36,7 @@
   "reservation_extras_title": "Citi pakalpojumi",
   "reservation_extras_description": "Papildus pakalpojumus un citas vēlmes nepieciešams rezervēt pirms ierašanās.",
   "reservation_public_holidays_title": "Svētku dienas",
-  "reservation_public_holidays_description": "Cenas svētku dienās kā Ziemassvētki, Jaunais gads, Līgo, Lieldienas, Kantrī mūzikas festivāls var mainīties.",
+  "reservation_public_holidays_description": "Cenas svētku dienās kā Ziemassvētki, Jaunais gads, Līgo, Lieldienas, Kantrī mūzikas festivāls un sezonas   nedēļas nogalēs var mainīties.",
 
   "sauna_rental": "Pirts īre",
   "sauna_rental_max_number_of_persons": "līdz 15 personām",
@@ -47,7 +47,7 @@
 
   "viesu_majas_ire": "Viesu māja",
   "guesthouse_rental_num_of_persons": "līdz 30 viesiem",
-  "guesthouse_rental_price_from": "no 220 €",
+  "guesthouse_rental_price_from": "no 190 €",
   "guesthouse_rental_alt": "Viesu mājas teritorija",
   "guesthouse_rental_meta_title": "Viesu māja | Gravas",
   "guesthouse_rental_meta_description": "Viesu mājas īre dzimšanas dienai, kāzām, izlaidumam, pēdējam zvanam vai kooperatīvam pasākuma. Viesu māja piedāvā telpu īri ar naktsmītnēm, sporta laukumiem un aktīvo atpūtu. Viesu māja atrodas pie Bauskas. Viesu māja ir piemērota atpūtai pie dabas ar ģimeni vai draugiem.",
