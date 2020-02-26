@@ -32,16 +32,16 @@
   "highlights_location_caption": "Bauskas novads",
 
   "accommodation": "Naktsmītnes",
-  "accommodation_per_person": "2 personām",
+  "accommodation_per_person": "1 personai",
   "body_massage": "Ķermeņa masāža",
   "body_massage_per_person": "1 personai",
-  "body_massage_back_massage": "atsevišķa muguras masāža 10 €",
+  "body_massage_back_massage": "muguras masāža 10 €",
 
   "breakfest": "Brokastis",
   "breakfest_per_person": "1 personai",
 
   "take_with_you": "Paņem līdzi",
-  "take_with_you_description": "Jāņem līdzi savu dvieli",
+  "take_with_you_description": "Vēlams paņemt līdzi savu dvieli",
   "cancelation": "Atcelšanas noteikumi",
   "cancelation_description": "Ja rezervācija tiek kavēta vairāk par stundu, pirtniecei ir tiesības atcelt rezervāciju.",
   "customer_requirement": "Klienta prasība",
@@ -49,7 +49,7 @@
 
   "zalu_pirts_rituals": "Zāļu pirts rituāls",
   "herbal_sauna_num_of_persons": "1 personai",
-  "herbal_sauna_price_from": "no 66 €",
+  "herbal_sauna_price_from": "no 63 €",
   "herbal_sauna_alt": "Zāļu pirts rituāls atmosfēra",
   "herbal_sauna_metaTitle": "Zāļu pirts rituāls | Gravas",
   "herbal_sauna_metaDescription": "Pirts rituāls - latviešu pirts. Pirts rituāls diviem norit ar individuālām procedūrām. Gravas pirts rituāli ir gadiem izkoptas metodes un latviešu pirts tradīciju kopums, lai relaksētu ķermeni un prātu. Zāļu pirts rituāls sastāv no vairākām spa procedūrām kā ķermeņa skrubis, pēršanās ar pirtsslotām, medus maska ķermenim, zāļu kāju vanna, lidojuma sajūtu sasniegšana baiseinā, pirts tējas dzeršana, kazas piena produktu baudīšana. Pirts rituāls Bauska.",
@@ -60,7 +60,7 @@
   "herbal_sauna_per_person": "1 personai",
   "herbal_sauna_additional_person": "ja piedalās vismaz 2 personas sesijas laikā",
   "individual_herbal_sauna_ritual": "Individuāls zāļu pirts rituāls",
-  "individual_herbal_sauna_per_person": "Piedalās 1 persona",
+  "individual_herbal_sauna_per_person": "Ja piedalās 1 persona",
 
   "milestibas_pirts_rituals": "Mīlestības pirts rituāls",
   "couple_sauna_num_of_persons": "2 personām",

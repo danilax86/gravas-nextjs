@@ -108,19 +108,13 @@
         "title": "zalu_pirts_rituals",
         "forPerson": "herbal_sauna_per_person",
         "additionalPerson": "herbal_sauna_additional_person",
-        "totalPrice": "66 €"
-      },
-      {
-        "icon": "spa",
-        "title": "individual_herbal_sauna_ritual",
-        "forPerson": "individual_herbal_sauna_per_person",
-        "totalPrice": "70 €"
+        "totalPrice": "63 €"
       },
       {
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "totalPrice": "36 €"
+        "totalPrice": "18 €"
       },
       {
         "icon": "cutlery",
@@ -134,6 +128,12 @@
         "forPerson": "body_massage_per_person",
         "additionalPerson": "body_massage_back_massage",
         "totalPrice": "20 €"
+      },
+      {
+        "icon": "spa",
+        "title": "individual_herbal_sauna_ritual",
+        "forPerson": "individual_herbal_sauna_per_person",
+        "totalPrice": "68 €"
       }
     ]
   },
