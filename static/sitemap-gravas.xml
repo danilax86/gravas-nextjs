@@ -52,6 +52,18 @@
 </url>
 <url>
   <loc>http://www.gravas.lv/pirts-rituals.php</loc>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="lv"
+               href="http://www.gravas.lv/pirts-rituali"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="http://www.gravas.lv/ru/pirts-rituali"/>
+  <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://www.gravas.lv/en/pirts-rituali"/>
 </url>
 <url>
   <loc>http://www.gravas.lv/lauku-spa.php</loc>
