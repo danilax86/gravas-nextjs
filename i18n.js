@@ -16,5 +16,10 @@ const localeSubpathVariations = {
 module.exports = new NextI18Next({
   defaultLanguage: "lv",
   otherLanguages: ["ru", "en"],
-  localeSubpaths: localeSubpathVariations.foreign
+  localeSubpaths: localeSubpathVariations.foreign,
+  detection: {
+    lookupCookie: "next-i18next",
+    order: ["cookie", "querystring", "localStorage", "path", "subdomain"],
+    caches: ["cookie"]
+  }
 });
