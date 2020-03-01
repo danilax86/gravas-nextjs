@@ -6,6 +6,7 @@ import ServiceCards from "../../components/service-cards/ServiceCards";
 import SaunaRitualsDescription from "../../static/data/sauna-rituals/saunaRituals";
 import SaunaRitualsHeaderText from "../../static/data/index-page/saunaRitualsHeader";
 import { withTranslation } from "../../i18n";
+import Pixel from "../../components/pixel";
 
 const SaunaRitualsPage = ({ t }) => {
   return (
@@ -13,6 +14,7 @@ const SaunaRitualsPage = ({ t }) => {
       title={t(SaunaRitualsHeaderText.metaTitle)}
       description={t(SaunaRitualsHeaderText.metaDescription)}
     >
+      <Pixel name="FACEBOOK_PIXEL_1" />
       <PageHeaderImage
         imgsrc="/static/sauna-rituals/pirts-rituali-kopa.jpg?webp?lqip"
         alt={t(SaunaRitualsHeaderText.alt)}
