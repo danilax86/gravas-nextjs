@@ -246,13 +246,13 @@
         "icon": "couple-ritual",
         "title": "milestibas_pirts_rituals",
         "forPerson": "couple_sauna_per_person",
-        "totalPrice": "138 €"
+        "totalPrice": "69 €"
       },
       {
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "totalPrice": "36 €"
+        "totalPrice": "18 €"
       },
       {
         "icon": "cutlery",
@@ -384,7 +384,7 @@
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "totalPrice": "36 €"
+        "totalPrice": "18 €"
       },
       {
         "icon": "cutlery",
@@ -517,7 +517,7 @@
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "totalPrice": "36 €"
+        "totalPrice": "18 €"
       },
       {
         "icon": "cutlery",
@@ -650,7 +650,7 @@
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "totalPrice": "36 €"
+        "totalPrice": "18 €"
       },
       {
         "icon": "cutlery",
@@ -778,7 +778,7 @@
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "totalPrice": "36 €"
+        "totalPrice": "18 €"
       },
       {
         "icon": "cutlery",
@@ -891,7 +891,7 @@
         "icon": "bed",
         "title": "accommodation",
         "forPerson": "accommodation_per_person",
-        "totalPrice": "36 €"
+        "totalPrice": "18 €"
       },
       {
         "icon": "cutlery",
