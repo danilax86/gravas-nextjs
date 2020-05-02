@@ -14,6 +14,7 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="robots" content="" />
           <meta name="viewport" content="width=device-width" />
+		  <meta name="google-site-verification" content="FZcWhbzt4eDfLszahYRguIoAxD3eGvc4mYYplruNtk8" />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
