@@ -100,9 +100,15 @@
     "allPrices": [
       {
         "icon": "key",
+        "title": "holiday_house",
+        "forPerson": "holiday_house_max_number_of_persons",
+        "totalPrice": "30 €"
+	  },
+	  {
+        "icon": "key",
         "title": "viesu_majas_ire",
         "forPerson": "guesthouse_max_number_of_persons",
-        "totalPrice": "30 €"
+        "totalPrice": "150 €"
       },
       {
         "icon": "sauna",

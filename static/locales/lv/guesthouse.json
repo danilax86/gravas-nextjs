@@ -46,8 +46,10 @@
   "grill_place_accessories": "iekļauta malka, grila piederumi",
 
   "viesu_majas_ire": "Viesu māja",
-  "guesthouse_rental_num_of_persons": "no 1 personas",
-  "guesthouse_rental_price_from": "no 30 €",
+  "guesthouse_rental_num_of_persons": "no 10 personām",
+  "guesthouse_rental_price_from": "no 150 €",
+  "holiday_house": "Brīvdienu māja",
+  "holiday_house_max_number_of_persons": "no 2 personām",
   "guesthouse_rental_alt": "Viesu mājas teritorija",
   "guesthouse_rental_meta_title": "Viesu māja | Gravas",
   "guesthouse_rental_meta_description": "Viesu māja piemērota atpūtai ģimenes lokā. Šobrīd piedāvājam viesu māju izmantot arī kā pašizolācijas vietu Bauskā. Viesu māja piedāvā telpu īri ar naktsmītnēm, sporta laukumiem un aktīvo atpūtu. Viesu māja atrodas 6 km no Bauskas. Viesu mājas īre dzimšanas dienai, kāzām, izlaidumam, pēdējam zvanam vai kooperatīvam pasākuma. Viesu māja ir piemērota atpūtai pie dabas ar ģimeni vai draugiem.",
@@ -57,7 +59,7 @@
   "guesthouse_highlights_maks_persons_caption": "Ierašanās / Izrakstīšanās",
   "guesthouse_description_title": "Par viesu māju",
   "guesthouse_description_text": "Šobrīd piedāvājam viesu māju izmantot arī kā pašizolācijas vietu Bauskā. Viesu māja piemērota atpūtai ģimenes lokā. Pirmajā stāvā atrodas neliela virtuvīte, koplietojamās ērtības, plaša viesu telpa. Viesu nama otrajā stāvā pieejamas naktsmītnes līdz 12 gultasvietām. Viesu mājas teritorija ir norobežota un apzaļumota, kur ir pieejama grila vieta, nojumes,  pludmales volejbola un basketbola laukumi.",
-  "guesthouse_max_number_of_persons": "no 1 personas",
+  "guesthouse_max_number_of_persons": "no 10 personām",
 
   "naktsmitnes": "Naktsmītnes",
   "accommodation_num_of_persons": "līdz 25 personām",
