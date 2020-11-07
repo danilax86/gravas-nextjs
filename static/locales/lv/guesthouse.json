@@ -58,11 +58,11 @@
   "guesthouse_highlights_maks_persons_label": "16:00 - 11:00",
   "guesthouse_highlights_maks_persons_caption": "Ierašanās / Izrakstīšanās",
   "guesthouse_description_title": "Par viesu māju",
-  "guesthouse_description_text": "Šobrīd piedāvājam viesu māju izmantot arī kā pašizolācijas vietu Bauskā. Viesu māja piemērota atpūtai ģimenes lokā. Pirmajā stāvā atrodas neliela virtuvīte, koplietojamās ērtības, plaša viesu telpa. Viesu nama otrajā stāvā pieejamas naktsmītnes līdz 12 gultasvietām. Viesu mājas teritorija ir norobežota un apzaļumota, kur ir pieejama grila vieta, nojumes,  pludmales volejbola un basketbola laukumi.",
+  "guesthouse_description_text": "Šobrīd piedāvājam viesu māju izmantot arī kā pašizolācijas vietu Bauskā. Pirmajā stāvā atrodas neliela virtuvīte, koplietojamās ērtības, plaša atpūtas telpa. Otrajā stāvā atrodas gultasvietas līdz 10 personām. Viesu mājas teritorija ir norobežota un apzaļumota, kur ir pieejama grila vieta, nojumes,  pludmales volejbola un basketbola laukumi.",
   "guesthouse_max_number_of_persons": "no 10 personām",
 
   "naktsmitnes": "Naktsmītnes",
-  "accommodation_num_of_persons": "līdz 25 personām",
+  "accommodation_num_of_persons": "1 personai",
   "accommodation_price_from": "no 15 €",
   "accommodation_alt": "Naktsmītnes | Gravas",
   "accommodation_meta_title": "Naktsmītnes pie Bauskas | Gravas",
@@ -143,5 +143,8 @@
 
   "sporta_laukumi": "Sporta pasākumi",
   "sport_activities_num_of_persons": "līdz 50 personām",
-  "sport_activities_price_from": "no 50 €"
+  "sport_activities_price_from": "no 50 €",
+
+  "isolation_place": "Pašizolācijas vieta",
+  "isolation_place_max_number_of_persons": "personai"
 }

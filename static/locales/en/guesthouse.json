@@ -46,23 +46,23 @@
   "grill_place_accessories": "wood, grill supplies included",
 
   "viesu_majas_ire": "Guesthouse",
-  "guesthouse_rental_num_of_persons": "up to 30 guests",
+  "guesthouse_rental_num_of_persons": "from 10 guests",
   "guesthouse_rental_price_from": "from 150 €",
   "holiday_house": "Holiday house",
   "holiday_house_max_number_of_persons": "from 2 persons",
   "guesthouse_rental_alt": "Guesthouse territory",
   "guesthouse_rental_meta_title": "Guesthouse | Gravas",
   "guesthouse_rental_meta_description": " Guesthouse for birthday party, wedding venue, graduation or last bell celebrations. Guesthouse offers to rent spacious room with accommodation. Guesthouse is located near Bauska. Guesthouse is a perfect place to stay if you sightseeing with friends or family",
-  "guesthouse_highlights_maks_persons_label": "up to 30 guests",
+  "guesthouse_highlights_maks_persons_label": "up to 30 persons",
   "guesthouse_highlights_maks_persons_caption": "Max number of guests",
   "guesthouse_highlights_duration_label": "16 PM - 11 AM",
   "guesthouse_highlights_duration_caption": "Check in/out times",
   "guesthouse_description_title": "About guesthouse",
   "guesthouse_description_text": "Recently constructed wooden guesthouse, located 6 km from the city of Bauska or A7 road. 15 minute drive to Rundale or Mezotne palace and a 1-hour drive to Riga. Beautiful pine forest with walking paths across the street. Top floor has 2 partitioned areas with 12 beds, while the ground floor features a spacious living room, kitchenette and en-suite facilities.",
-  "guesthouse_max_number_of_persons": "up to 30 guests",
+  "guesthouse_max_number_of_persons": "from 10 guests",
 
   "naktsmitnes": "Accommodation",
-  "accommodation_num_of_persons": "up to 25 persons",
+  "accommodation_num_of_persons": "per person",
   "accommodation_price_from": "from 15 €",
   "accommodation_alt": "Accommodation near Bauska",
   "accommodation_meta_title": "Accommodation | Gravas",
@@ -142,5 +142,8 @@
 
   "sporta_laukumi": "Sporta pasākumi",
   "sport_activities_num_of_persons": "līdz 50 personām",
-  "sport_activities_price_from": "no 50 €"
+  "sport_activities_price_from": "no 50 €",
+
+  "isolation_place": "Self isolation place",
+  "isolation_place_max_number_of_persons": "per person"
 }
