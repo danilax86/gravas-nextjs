@@ -14,10 +14,11 @@ const LanguageSelect = () => {
     <SelectItems>
       <ArrowDownIcon className="icon" style={{ fontSize: "24px" }} />
       <select
-        defaultValue={i18n.language || FALLBACK_LANGUAGE}
-        onChange={event => {
-          i18n.changeLanguage(event.target.value);
-        }}
+		name="choose language"
+		defaultValue={i18n.language || FALLBACK_LANGUAGE}
+		onChange={event => {
+			i18n.changeLanguage(event.target.value);
+		}}
       >
         <option value="lv">Latviešu</option>
         <option value="ru">Pусский</option>
