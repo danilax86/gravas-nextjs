@@ -39,7 +39,7 @@
   "reservation_public_holidays_description": "Prices can be different on holidays like Christmas, New Years, Easter,'Ligo' midsummer, Country festival in Bauska",
 
   "sauna_rental": "Sauna rental",
-  "sauna_rental_max_number_of_persons": "up to 15 persons",
+  "sauna_rental_max_number_of_persons": "up to 10 persons",
   "accommodation": "Accommodation",
   "accommodation_per_person": "1 person",
   "grill_place": "Grill place",
@@ -78,12 +78,12 @@
   "accommodation_not_allowed_description": "We offer extra accommodation only for large events.",
 
   "iekurinata_pirts": "Sauna rental",
-  "sauna_num_of_persons": "up to 15 persons",
+  "sauna_num_of_persons": "up to 10 persons",
   "sauna_price_from": "from 45 €",
   "sauna_alt": "Sauna with guesthouse",
   "sauna_meta_title": "Sauna rental | Gravas",
   "sauna_meta_description": "Sauna with friends, family or collegues. Sauna with sport activities is perfect to celebrate birthday or graduation party. Latvian sauna ir located near Bauska.",
-  "sauna_highlights_duration_label": "1 - 15 persons",
+  "sauna_highlights_duration_label": "1 - 10 persons",
   "sauna_highlights_duration_caption": "Max number of guests",
   "sauna_highlights_maks_persons_label": "3 hours",
   "sauna_highlights_maks_persons_caption": "Sauna duration",
