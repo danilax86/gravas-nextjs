@@ -9,9 +9,6 @@ const localeSubpaths = {}
 
 const nextConfig = {
   rewrites: async () => nextI18NextRewrites(localeSubpaths),
-  publicRuntimeConfig: {
-    localeSubpaths,
-  },
 };
 
 module.exports = withOffline(withOptimizedImages(nextConfig));
