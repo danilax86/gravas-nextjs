@@ -1,3 +1,4 @@
+
 import React from "react";
 import App from "next/app";
 import { appWithTranslation } from "../i18n";
